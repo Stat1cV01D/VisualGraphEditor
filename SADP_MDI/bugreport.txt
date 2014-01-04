@@ -1,0 +1,2118 @@
+date/time         : 2012-05-12, 01:58:57, 834ms
+computer name     : THECOMPOFSTAT1C
+user name         : Stat!c_V0!D
+registered owner  : Stat1c_V01D
+operating system  : Windows 7 Service Pack 1 build 7601
+system language   : Russian
+system up time    : 21 hours 50 minutes
+program up time   : 1 second
+processors        : 2x Intel(R) Pentium(R) Dual CPU T3400 @ 2.16GHz
+physical memory   : 1045/3069 MB (free/total)
+free disk space   : (C:) 4,48 GB
+display mode      : 1366x768, 32 bit
+process id        : $d0
+allocated memory  : 23,11 MB
+command line      : "C:\Users\Stat!c_V0!D\Documents\RAD Studio\Projects\SADP_MDI\MDIAPP.exe" C:\Users\Stat!c_V0!D\Desktop\Main.sv0
+executable        : MDIAPP.exe
+exec. date/time   : 2012-05-12 01:56
+compiled with     : Delphi XE
+madExcept version : 3.0m
+callstack crc     : $06fe5498, $59581371, $59581371
+count             : 2
+exception number  : 1
+exception class   : EListError
+exception message : List index out of bounds (0).
+
+main thread ($1dec):
+0049a0a5 +015 MDIAPP.exe   Classes          TList.Get
+0049b60b +00b MDIAPP.exe   Classes          TCollection.GetItem
+0051a37e +00a MDIAPP.exe   ComCtrls         TStatusPanels.GetItem
+005af0e6 +032 MDIAPP.exe   MainFrm  207  +1 TMDIChild.SetStatus
+005b0566 +122 MDIAPP.exe   MainFrm  814 +43 TMDIChild.MainPaintBoxMouseUp
+77c46fcb +02b ntdll.dll                     KiUserCallbackDispatcher
+004d8374 +02c MDIAPP.exe   Controls         TControl.MouseUp
+004d83b8 +038 MDIAPP.exe   Controls         TControl.DoMouseUp
+004d8434 +070 MDIAPP.exe   Controls         TControl.WMLButtonUp
+004d7a18 +2d4 MDIAPP.exe   Controls         TControl.WndProc
+004a7ba8 +014 MDIAPP.exe   Classes          StdWndProc
+004d763c +024 MDIAPP.exe   Controls         TControl.Perform
+004dbc08 +0ac MDIAPP.exe   Controls         TWinControl.IsControlMouseMsg
+004dc158 +3e4 MDIAPP.exe   Controls         TWinControl.WndProc
+004db97c +02c MDIAPP.exe   Controls         TWinControl.MainWndProc
+004a7ba8 +014 MDIAPP.exe   Classes          StdWndProc
+775acc6b +00a USER32.dll                    DispatchMessageW
+00542333 +0f3 MDIAPP.exe   Forms            TApplication.ProcessMessage
+00542376 +00a MDIAPP.exe   Forms            TApplication.HandleMessage
+005426a1 +0c9 MDIAPP.exe   Forms            TApplication.Run
+7743ed6a +010 kernel32.dll                  BaseThreadInitThunk
+
+thread $288:
+77c46a02 +000a ntdll.dll                NtWaitForMultipleObjects
+75ef6a30 +0000 KERNELBASE.dll           WaitForMultipleObjectsEx
+7743bd19 +0089 kernel32.dll             WaitForMultipleObjectsEx
+775a62f3 +7f8a USER32.dll               MsgWaitForMultipleObjectsEx
+775a37f2 +001a USER32.dll               MsgWaitForMultipleObjects
+00463aad +000d MDIAPP.exe     madExcept CallThreadProcSafe
+00463b17 +0037 MDIAPP.exe     madExcept ThreadExceptFrame
+7743ed6a +0010 kernel32.dll             BaseThreadInitThunk
+>> created by main thread ($1dec) at:
+745078e1 +0000 gdiplus.dll
+
+thread $1a8c:
+77c46a02 +0a ntdll.dll     NtWaitForMultipleObjects
+7743ed6a +10 kernel32.dll  BaseThreadInitThunk
+
+modules:
+00360000 Weareg2.bpl    14.0.3593.25826  C:\Program Files\Embarcadero\ktf
+00400000 MDIAPP.exe                      C:\Users\Stat!c_V0!D\Documents\RAD Studio\Projects\SADP_MDI
+10000000 RocketDock.dll                  C:\Program Files\RocketDock
+66fb0000 AcLayers.DLL   6.1.7601.17514   C:\Windows\AppPatch
+6c650000 comctl32.dll   5.82.7601.17514  C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7601.17514_none_ec83dffa859149af
+6eed0000 pshook.dll     3.2.2.45         C:\Program Files\Yandex\Punto Switcher
+720c0000 winspool.drv   6.1.7601.17514   C:\Windows\system32
+73c50000 msimg32.dll    6.1.7600.16385   C:\Windows\system32
+744c0000 gdiplus.dll    6.1.7601.17825   C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.17825_none_72d273598668a06b
+74650000 uxtheme.dll    6.1.7600.16385   C:\Windows\system32
+74690000 comctl32.dll   6.10.7601.17514  C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2
+749f0000 winmm.dll      6.1.7601.17514   C:\Windows\system32
+750a0000 version.dll    6.1.7600.16385   C:\Windows\system32
+75160000 DWMAPI.DLL     6.1.7600.16385   C:\Windows\system32
+75a30000 SspiCli.dll    6.1.7601.17725   C:\Windows\system32
+75a50000 apphelp.dll    6.1.7601.17514   C:\Windows\system32
+75aa0000 CRYPTBASE.dll  6.1.7600.16385   C:\Windows\system32
+75b90000 wsock32.dll    6.1.7600.16385   C:\Windows\system32
+75c90000 profapi.dll    6.1.7600.16385   C:\Windows\system32
+75ca0000 USERENV.dll    6.1.7601.17514   C:\Windows\system32
+75d80000 MPR.dll        6.1.7600.16385   C:\Windows\system32
+75ef0000 KERNELBASE.dll 6.1.7601.17651   C:\Windows\system32
+76090000 MSCTF.dll      6.1.7600.16385   C:\Windows\system32
+76160000 shell32.dll    6.1.7601.17755   C:\Windows\system32
+76db0000 imm32.dll      6.1.7601.17514   C:\Windows\system32
+76f70000 SHLWAPI.dll    6.1.7601.17514   C:\Windows\system32
+76fd0000 advapi32.dll   6.1.7601.17514   C:\Windows\system32
+77070000 LPK.dll        6.1.7600.16385   C:\Windows\system32
+77080000 NSI.dll        6.1.7600.16385   C:\Windows\system32
+77090000 USP10.dll      1.626.7601.17514 C:\Windows\system32
+77130000 PSAPI.DLL      6.1.7600.16385   C:\Windows\system32
+77140000 sechost.dll    6.1.7600.16385   C:\Windows\SYSTEM32
+77310000 imagehlp.dll   6.1.7601.17787   C:\Windows\system32
+77340000 msvcrt.dll     7.0.7601.17744   C:\Windows\system32
+773f0000 kernel32.dll   6.1.7601.17651   C:\Windows\system32
+774d0000 comdlg32.dll   6.1.7601.17514   C:\Windows\system32
+77550000 WS2_32.dll     6.1.7601.17514   C:\Windows\system32
+77590000 USER32.dll     6.1.7601.17514   C:\Windows\system32
+778d0000 ole32.dll      6.1.7601.17514   C:\Windows\system32
+77a30000 RPCRT4.dll     6.1.7601.17514   C:\Windows\system32
+77c00000 ntdll.dll      6.1.7601.17725   C:\Windows\SYSTEM32
+77d40000 oleaut32.dll   6.1.7601.17676   C:\Windows\system32
+77dd0000 GDI32.dll      6.1.7601.17514   C:\Windows\system32
+
+processes:
+0000 Idle                     0 0    0
+0004 System                   0 0    0
+0118 smss.exe                 0 0    0
+017c csrss.exe                0 0    0
+01c0 psxss.exe                0 0    0
+01c8 csrss.exe                1 0    0
+01e0 wininit.exe              0 0    0
+0204 winlogon.exe             1 0    0
+0234 services.exe             0 0    0
+023c lsass.exe                0 0    0
+0248 lsm.exe                  0 0    0
+02b4 svchost.exe              0 0    0
+0318 nvvsvc.exe               0 0    0
+0340 svchost.exe              0 0    0
+03a0 svchost.exe              0 0    0
+03c4 svchost.exe              0 0    0
+03e0 svchost.exe              0 0    0
+0420 stacsv.exe               0 0    0
+0554 svchost.exe              0 0    0
+05ac svchost.exe              0 0    0
+063c spoolsv.exe              0 0    0
+0668 svchost.exe              0 0    0
+06d4 DWENGINE.EXE             0 0    0
+0700 NetworkLicenseServer.exe 0 0    0
+018c DUMeterSvc.exe           0 0    0
+0214 svchost.exe              0 0    0
+04e8 Service.exe              0 0    0
+0868 hasplms.exe              0 0    0
+0a88 PnkBstrA.exe             0 0    0
+0ac4 RoozzUpdater.exe         0 0    0
+0b1c SPIDERNT.EXE             0 0    0
+0b4c sqlwriter.exe            0 0    0
+0b94 svchost.exe              0 0    0
+0be4 TeamViewer_Service.exe   0 0    0
+0c0c TestCompleteService7.exe 0 0    0
+0e7c alg.exe                  0 0    0
+0ea4 svchost.exe              0 0    0
+094c nvxdsync.exe             1 0    0
+0718 nvvsvc.exe               1 0    0
+0158 taskhost.exe             1 18   23  normal       C:\Windows\system32
+0dc0 Dwm.exe                  1 6    2   normal       C:\Windows\system32
+0594 Agent.exe                1 42   39  normal       C:\Program Files\G-Service\Agent
+0724 2GISTrayNotifier.exe     1 8    7   normal       C:\Program Files\2gis\3.0
+0b08 DRWAGNUI.EXE             1 68   18  normal       C:\Program Files\DrWeb AV-Desk
+0ad8 SearchIndexer.exe        0 0    0
+0988 SPIDERUI.EXE             1 13   28  normal       C:\Program Files\DrWeb AV-Desk
+085c nvtray.exe               1 77   4   normal       C:\Program Files\NVIDIA Corporation\Display
+0c38 wmpnetwk.exe             0 0    0
+0674 TSVNCache.exe            1 4    5   normal       C:\Program Files\TortoiseSVN\bin
+0488 LvAgent.exe              1 16   11  normal       C:\Program Files\ABBYY Lingvo x3
+0504 jusched.exe              1 4    2   normal       C:\Program Files\Common Files\Java\Java Update
+0a44 iconoid.exe              1 19   184 normal       C:\Program Files\Iconoid
+029c svchost.exe              0 0    0
+0e14 RocketDock.exe           1 47   29  normal       C:\Program Files\RocketDock
+0e70 StikyNot.exe             1 218  112 normal       C:\Windows\System32
+1050 clip2net.exe             1 163  106 normal       C:\Program Files\Clip2Net
+10c0 GoogleCrashHandler.exe   1 4    1   idle         C:\Users\Stat!c_V0!D\AppData\Local\Google\Update\1.3.21.111
+1130 AlSrvN.exe               1 4    1   normal       C:\Program Files\Alcohol Soft\Alcohol 120\Plugins\Helper
+1144 4Sync.exe                1 113  44  normal       C:\Program Files\4Sync
+1200 sidebar.exe              1 28   34  normal       C:\Program Files\Windows Sidebar
+1360 SkyDrive.exe             1 58   37  normal       C:\Users\Stat!c_V0!D\AppData\Local\Microsoft\SkyDrive
+13b8 svchost.exe              0 0    0
+142c csystray.exe             1 52   105 normal       C:\InterSystems\Cache\bin
+14b0 rundll32.exe             1 10   6   normal       C:\Windows\system32
+14c0 Dropbox.exe              1 44   26  normal       C:\Users\Stat!c_V0!D\AppData\Roaming\Dropbox\bin
+1564 punto.exe                1 75   36  normal       C:\Program Files\Yandex\Punto Switcher
+168c utorrent.exe             1 415  166 normal       C:\Total Commander PowerUser v53\Programm\uTorrent
+156c OSPPSVC.EXE              0 0    0
+15bc svchost.exe              0 0    0
+12d8 taskhost.exe             1 0    0
+1bb4 steam.exe                1 781  106 normal       Y:\Steam
+0b7c SteamService.exe         0 0    0
+0878 trillian.exe             1 818  255 normal       C:\Program Files\Trillian
+1c04 skypekit.exe             1 4    9   normal       c:\program files\trillian\plugins
+13d4 conhost.exe              1 17   1   normal       C:\Windows\system32
+1228 explorer.exe             1 521  283 normal       C:\Windows
+10b4 YandexDisk.exe           1 24   28  normal       C:\Users\Stat!c_V0!D\AppData\Roaming\Yandex\YandexDisk
+08c0 WUDFHost.exe             0 0    0
+0f34 bds.exe                  1 2750 914 normal       C:\Program Files\Embarcadero\RAD Studio\8.0\bin
+0d78 chrome.exe               1 157  120 normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1eec chrome.exe               1 5    1   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1a78 chrome.exe               1 11   1   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1418 chrome.exe               1 5    1   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1e7c chrome.exe               1 4    1   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1904 chrome.exe               1 4    1   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1168 chrome.exe               1 5    1   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+11bc chrome.exe               1 54   1   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+128c chrome.exe               1 4    1   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1c38 chrome.exe               1 66   1   below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+10cc chrome.exe               1 89   1   below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+10f8 chrome.exe               1 311  1   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+0e44 chrome.exe               1 8    4   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+00e4 chrome.exe               1 4    9   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+14e8 rundll32.exe             1 10   5   normal       C:\Windows\system32
+078c chrome.exe               1 16   47  normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1b34 chrome.exe               1 128  1   below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1efc dmaster.exe              1 338  226 normal       C:\Program Files\Download Master
+18f4 procexp.exe              1 0    0
+07cc WINWORD.EXE              1 227  126 normal       C:\Program Files\Microsoft Office\Office14
+0880 WINWORD.EXE              1 167  59  normal       C:\Program Files\Microsoft Office\Office14
+09cc audiodg.exe              0 0    0
+03a8 chrome.exe               1 79   1   below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1298 chrome.exe               1 73   1   below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1a60 chrome.exe               1 231  1   below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1bf0 chrome.exe               1 4    9   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1a10 SearchProtocolHost.exe   0 0    0
+1520 SearchFilterHost.exe     0 0    0
+00d0 MDIAPP.exe               1 112  68  normal       C:\Users\Stat!c_V0!D\Documents\RAD Studio\Projects\SADP_MDI
+
+hardware:
++ Batteries
+  - Адаптер блока питания (Microsoft)
+  - Батарея с ACPI-совместимым управлением (Microsoft)
+  - Составная батарея (Майкрософт)
++ Computer
+  - ACPI компьютер на базе x86
++ Disk drives
+  - Seagate FreeAgent XTreme ATA Device
+  - Sony Eri Memory Stick USB Device
+  - Sony Eri Memory Stick USB Device
+  - WDC WD2500BEVT-60ZCT1 ATA Device
++ Display adapters
+  - NVIDIA GeForce G 103M (driver 8.17.12.8562)
++ DVD/CD-ROM drives
+  - TSSTcorp CDDVDW TS-L633M ATA Device
+  - UPK YZW1EB4 SCSI CdRom Device
+  - UPK YZW1EB4 SCSI CdRom Device
++ Human Interface Devices
+  - HID-совместимое устройство
+  - HID-совместимое устройство
+  - HID-совместимое устройство управления
+  - USB-устройство ввода
+  - USB-устройство ввода
++ IDE ATA/ATAPI controllers
+  - ATA Channel 0
+  - ATA Channel 1
+  - ATA Channel 4
+  - ATA Channel 5
+  - Intel(R) ICH9M/M-E Family 4 Port SATA AHCI Controller - 2929 (driver 6.9.1.1001)
++ Imaging devices
+  - HP Webcam-101
++ Keyboards
+  - Клавиатура HID
+  - Стандартная клавиатура PS/2
++ Mice and other pointing devices
+  - HID-совместимая мышь
+  - Synaptics PS/2 Port TouchPad (driver 15.0.17.4)
++ Monitors
+  - Универсальный монитор PnP
++ Network adapters
+  - Atheros AR9285 802.11b/g/n WiFi Adapter (driver 8.0.0.172)
+  - Realtek RTL8102E/RTL8103E Family PCI-E Fast Ethernet NIC (NDIS 6.20)
++ Portable Devices
+  - PHONE
+  - PHONE CARD
++ Processors
+  - Intel(R) Pentium(R) Dual  CPU  T3400  @ 2.16GHz
+  - Intel(R) Pentium(R) Dual  CPU  T3400  @ 2.16GHz
++ Sound, video and game controllers
+  - IDT High Definition Audio CODEC (driver 6.10.6276.0)
+  - NVIDIA High Definition Audio (driver 1.2.24.0)
++ Storage controllers
+  - AM4QQVKL IDE Controller
+  - AVJ0OTDL IDE Controller
++ System devices
+  - AMD Low Level Device Driver (driver 1.0.1.0)
+  - CMOS и часы
+  - Intel(R) 82801 PCI мост - 2448
+  - Intel(R) 82802 Firmware концентратор
+  - Intel(R) ICH9 Family PCI Express Root Port 1 - 2940 (driver 8.6.1.1002)
+  - Intel(R) ICH9 Family PCI Express Root Port 2 - 2942 (driver 8.6.1.1002)
+  - Intel(R) ICH9 Family SMBus Controller - 2930 (driver 8.6.1.1001)
+  - Intel(R) ICH9 Family Thermal Subsystem - 2932 (driver 8.6.1.1002)
+  - Intel(R) ICH9M LPC Interface Controller - 2919 (driver 8.6.1.1002)
+  - Microsoft ACPI-совместимая система
+  - Microsoft ACPI-совместимый встроенный контроллер
+  - Microsoft System Management BIOS драйвер
+  - Mobile Intel(R) 4 Series Chipset PCI Express Root Port - 2A41 (driver 9.1.0.1003)
+  - Mobile Intel(R) 4 Series Chipset Processor to DRAM Controller - 2A40 (driver 9.1.0.1003)
+  - Remote Desktop Device Redirector Bus
+  - UMBus перечислитель
+  - UMBus перечислитель
+  - UMBus перечислитель корневой шины
+  - Арифметический сопроцессор
+  - Высокоточный таймер событий
+  - Диспетчер томов
+  - Драйвер клавиатуры сервера терминалов
+  - Драйвер мыши сервера терминалов
+  - Драйвер перечислителя виртуальных дисков (Майкрософт)
+  - Драйвер файла в качестве тома
+  - Драйвер шины Virtual PC
+  - Интерфейс управления для ACPI Microsoft Windows
+  - Кнопка питания ACPI
+  - Кнопка прямого запуска приложений
+  - Кнопка прямого запуска приложений
+  - Кнопка прямого запуска приложений
+  - Кнопка прямого запуска приложений
+  - Кнопка прямого запуска приложений
+  - Кнопка прямого запуска приложений
+  - Кнопка прямого запуска приложений
+  - Кнопка спящего режима ACPI
+  - Контроллер High Definition Audio (Microsoft)
+  - Контроллер прямого доступа к памяти
+  - Крышка ACPI
+  - Перечислитель композитной шины
+  - Перечислитель программных устройств Plug and Play
+  - Программируемый контроллер прерываний
+  - Расширенная шина ввода/вывода
+  - Ресурсы системной платы
+  - Ресурсы системной платы
+  - Системный таймер
+  - Термальная зона ACPI
+  - Фиксированная функциональная кнопка ACPI
+  - Шина PCI
++ Universal Serial Bus controllers
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2934 (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2935 (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2936 (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2937 (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2938 (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2939 (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB2 Enhanced Host Controller - 293A (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB2 Enhanced Host Controller - 293C (driver 8.3.0.1011)
+  - Запоминающее устройство для USB
+  - Запоминающее устройство для USB
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Составное USB устройство
+  - Составное USB устройство
+  - Составное USB устройство
++ Виртуализация USB
+  - Драйвер разъема виртуализации USB
+
+disassembling:
+[...]
+005af0d1 207   mov     eax, [$5c5fb8]
+005af0d6       mov     eax, [eax]
+005af0d8       mov     eax, [eax+$3dc]
+005af0de       mov     eax, [eax+$270]
+005af0e4       xor     edx, edx
+005af0e6     > call    -$94d77 ($51a374)      ; ComCtrls.TStatusPanels.GetItem
+005af0eb       mov     edx, [ebp-4]
+005af0ee       call    -$94e23 ($51a2d0)      ; ComCtrls.TStatusPanel.SetText
+005af0f3 208   xor     eax, eax
+005af0f5       pop     edx
+005af0f6       pop     ecx
+[...]
+
+date/time         : 2012-05-13, 15:50:56, 828ms
+computer name     : THECOMPOFSTAT1C
+user name         : Stat!c_V0!D
+registered owner  : Stat1c_V01D
+operating system  : Windows 7 Service Pack 1 build 7601
+system language   : Russian
+system up time    : 2 days 11 hours
+program up time   : 539 milliseconds
+processors        : 2x Intel(R) Pentium(R) Dual CPU T3400 @ 2.16GHz
+physical memory   : 1257/3069 MB (free/total)
+free disk space   : (C:) 4,39 GB
+display mode      : 1366x768, 32 bit
+process id        : $13ac
+allocated memory  : 22,85 MB
+command line      : "C:\Users\Stat!c_V0!D\Documents\RAD Studio\Projects\SADP_MDI\MDIAPP.exe" C:\Users\Stat!c_V0!D\Desktop\Main.sv0
+executable        : MDIAPP.exe
+exec. date/time   : 2012-05-13 15:50
+compiled with     : Delphi XE
+madExcept version : 3.0m
+callstack crc     : $0a75a14f, $f9abad5b, $f9abad5b
+count             : 2
+exception number  : 1
+exception class   : EResNotFound
+exception message : Resource MANUAL not found.
+
+main thread ($2700):
+0049ed77 +006f MDIAPP.exe   Classes       Error
+0049edce +0026 MDIAPP.exe   Classes       TResourceStream.Initialize
+0049ec91 +0035 MDIAPP.exe   Classes       TResourceStream.Create
+005bcec7 +001b MDIAPP.exe   about   38 +1 TAboutBox.FormCreate
+0053c985 +0031 MDIAPP.exe   Forms         TCustomForm.DoCreate
+0053c5c9 +0011 MDIAPP.exe   Forms         TCustomForm.AfterConstruction
+00405acd +001d MDIAPP.exe   System        @AfterConstruction
+0053c599 +01a1 MDIAPP.exe   Forms         TCustomForm.Create
+00546c86 +0076 MDIAPP.exe   Forms         TApplication.CreateForm
+005c61a0 +8268 MDIAPP.exe   MDIAPP     26 Finalization
+7743ed6a +0010 kernel32.dll               BaseThreadInitThunk
+
+thread $1e48:
+77c46a02 +000a ntdll.dll                NtWaitForMultipleObjects
+75ef6a30 +0000 KERNELBASE.dll           WaitForMultipleObjectsEx
+7743bd19 +0089 kernel32.dll             WaitForMultipleObjectsEx
+775a62f3 +7f8a USER32.dll               MsgWaitForMultipleObjectsEx
+775a37f2 +001a USER32.dll               MsgWaitForMultipleObjects
+00463ab5 +000d MDIAPP.exe     madExcept CallThreadProcSafe
+00463b1f +0037 MDIAPP.exe     madExcept ThreadExceptFrame
+7743ed6a +0010 kernel32.dll             BaseThreadInitThunk
+>> created by main thread ($2700) at:
+745078e1 +0000 gdiplus.dll
+
+thread $1c18:
+77c46a02 +0a ntdll.dll     NtWaitForMultipleObjects
+7743ed6a +10 kernel32.dll  BaseThreadInitThunk
+
+modules:
+00400000 MDIAPP.exe                      C:\Users\Stat!c_V0!D\Documents\RAD Studio\Projects\SADP_MDI
+00df0000 Weareg2.bpl    14.0.3593.25826  C:\Program Files\Embarcadero\ktf
+10000000 RocketDock.dll                  C:\Program Files\RocketDock
+66fb0000 AcLayers.DLL   6.1.7601.17514   C:\Windows\AppPatch
+69090000 RICHED20.DLL   5.31.23.1230     C:\Windows\system32
+6c650000 comctl32.dll   5.82.7601.17514  C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7601.17514_none_ec83dffa859149af
+6eed0000 pshook.dll     3.2.2.45         C:\Program Files\Yandex\Punto Switcher
+720c0000 winspool.drv   6.1.7601.17514   C:\Windows\system32
+73c50000 msimg32.dll    6.1.7600.16385   C:\Windows\system32
+744c0000 gdiplus.dll    6.1.7601.17825   C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.17825_none_72d273598668a06b
+74650000 uxtheme.dll    6.1.7600.16385   C:\Windows\system32
+74690000 comctl32.dll   6.10.7601.17514  C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2
+749f0000 winmm.dll      6.1.7601.17514   C:\Windows\system32
+750a0000 version.dll    6.1.7600.16385   C:\Windows\system32
+75a30000 SspiCli.dll    6.1.7601.17725   C:\Windows\system32
+75a50000 apphelp.dll    6.1.7601.17514   C:\Windows\system32
+75aa0000 CRYPTBASE.dll  6.1.7600.16385   C:\Windows\system32
+75b90000 wsock32.dll    6.1.7600.16385   C:\Windows\system32
+75c90000 profapi.dll    6.1.7600.16385   C:\Windows\system32
+75ca0000 USERENV.dll    6.1.7601.17514   C:\Windows\system32
+75d80000 MPR.dll        6.1.7600.16385   C:\Windows\system32
+75ef0000 KERNELBASE.dll 6.1.7601.17651   C:\Windows\system32
+76090000 MSCTF.dll      6.1.7600.16385   C:\Windows\system32
+76160000 shell32.dll    6.1.7601.17755   C:\Windows\system32
+76db0000 imm32.dll      6.1.7601.17514   C:\Windows\system32
+76f70000 SHLWAPI.dll    6.1.7601.17514   C:\Windows\system32
+76fd0000 advapi32.dll   6.1.7601.17514   C:\Windows\system32
+77070000 LPK.dll        6.1.7600.16385   C:\Windows\system32
+77080000 NSI.dll        6.1.7600.16385   C:\Windows\system32
+77090000 USP10.dll      1.626.7601.17514 C:\Windows\system32
+77130000 PSAPI.DLL      6.1.7600.16385   C:\Windows\system32
+77140000 sechost.dll    6.1.7600.16385   C:\Windows\SYSTEM32
+77310000 imagehlp.dll   6.1.7601.17787   C:\Windows\system32
+77340000 msvcrt.dll     7.0.7601.17744   C:\Windows\system32
+773f0000 kernel32.dll   6.1.7601.17651   C:\Windows\system32
+774d0000 comdlg32.dll   6.1.7601.17514   C:\Windows\system32
+77550000 WS2_32.dll     6.1.7601.17514   C:\Windows\system32
+77590000 USER32.dll     6.1.7601.17514   C:\Windows\system32
+778d0000 ole32.dll      6.1.7601.17514   C:\Windows\system32
+77a30000 RPCRT4.dll     6.1.7601.17514   C:\Windows\system32
+77c00000 ntdll.dll      6.1.7601.17725   C:\Windows\SYSTEM32
+77d40000 oleaut32.dll   6.1.7601.17676   C:\Windows\system32
+77dd0000 GDI32.dll      6.1.7601.17514   C:\Windows\system32
+
+processes:
+0000 Idle                     0 0    0
+0004 System                   0 0    0
+0118 smss.exe                 0 0    0
+017c csrss.exe                0 0    0
+01c0 psxss.exe                0 0    0
+01c8 csrss.exe                1 0    0
+01e0 wininit.exe              0 0    0
+0204 winlogon.exe             1 0    0
+0234 services.exe             0 0    0
+023c lsass.exe                0 0    0
+0248 lsm.exe                  0 0    0
+02b4 svchost.exe              0 0    0
+0318 nvvsvc.exe               0 0    0
+0340 svchost.exe              0 0    0
+03a0 svchost.exe              0 0    0
+03c4 svchost.exe              0 0    0
+03e0 svchost.exe              0 0    0
+0420 stacsv.exe               0 0    0
+0554 svchost.exe              0 0    0
+05ac svchost.exe              0 0    0
+063c spoolsv.exe              0 0    0
+0668 svchost.exe              0 0    0
+06d4 DWENGINE.EXE             0 0    0
+0700 NetworkLicenseServer.exe 0 0    0
+018c DUMeterSvc.exe           0 0    0
+0214 svchost.exe              0 0    0
+04e8 Service.exe              0 0    0
+0868 hasplms.exe              0 0    0
+0a88 PnkBstrA.exe             0 0    0
+0ac4 RoozzUpdater.exe         0 0    0
+0b1c SPIDERNT.EXE             0 0    0
+0b4c sqlwriter.exe            0 0    0
+0b94 svchost.exe              0 0    0
+0be4 TeamViewer_Service.exe   0 0    0
+0c0c TestCompleteService7.exe 0 0    0
+0e7c alg.exe                  0 0    0
+0ea4 svchost.exe              0 0    0
+094c nvxdsync.exe             1 0    0
+0718 nvvsvc.exe               1 0    0
+0158 taskhost.exe             1 25   27   normal       C:\Windows\system32
+0dc0 Dwm.exe                  1 6    2    normal       C:\Windows\system32
+0594 Agent.exe                1 42   39   normal       C:\Program Files\G-Service\Agent
+0724 2GISTrayNotifier.exe     1 8    8    normal       C:\Program Files\2gis\3.0
+0b08 DRWAGNUI.EXE             1 68   18   normal       C:\Program Files\DrWeb AV-Desk
+0ad8 SearchIndexer.exe        0 0    0
+0988 SPIDERUI.EXE             1 13   28   normal       C:\Program Files\DrWeb AV-Desk
+085c nvtray.exe               1 77   4    normal       C:\Program Files\NVIDIA Corporation\Display
+0c38 wmpnetwk.exe             0 0    0
+0674 TSVNCache.exe            1 4    7    normal       C:\Program Files\TortoiseSVN\bin
+0488 LvAgent.exe              1 16   11   normal       C:\Program Files\ABBYY Lingvo x3
+0504 jusched.exe              1 4    2    normal       C:\Program Files\Common Files\Java\Java Update
+0a44 iconoid.exe              1 19   184  normal       C:\Program Files\Iconoid
+029c svchost.exe              0 0    0
+0e14 RocketDock.exe           1 47   29   normal       C:\Program Files\RocketDock
+0e70 StikyNot.exe             1 222  114  normal       C:\Windows\System32
+1050 clip2net.exe             1 172  119  normal       C:\Program Files\Clip2Net
+10c0 GoogleCrashHandler.exe   1 4    1    idle         C:\Users\Stat!c_V0!D\AppData\Local\Google\Update\1.3.21.111
+1130 AlSrvN.exe               1 4    1    normal       C:\Program Files\Alcohol Soft\Alcohol 120\Plugins\Helper
+1144 4Sync.exe                1 113  44   normal       C:\Program Files\4Sync
+1200 sidebar.exe              1 28   36   normal       C:\Program Files\Windows Sidebar
+1360 SkyDrive.exe             1 58   40   normal       C:\Users\Stat!c_V0!D\AppData\Local\Microsoft\SkyDrive
+13b8 svchost.exe              0 0    0
+14b0 rundll32.exe             1 10   6    normal       C:\Windows\system32
+14c0 Dropbox.exe              1 44   27   normal       C:\Users\Stat!c_V0!D\AppData\Roaming\Dropbox\bin
+1564 punto.exe                1 77   37   normal       C:\Program Files\Yandex\Punto Switcher
+168c utorrent.exe             1 676  256  normal       C:\Total Commander PowerUser v53\Programm\uTorrent
+156c OSPPSVC.EXE              0 0    0
+15bc svchost.exe              0 0    0
+12d8 taskhost.exe             1 0    0
+0878 trillian.exe             1 951  261  normal       C:\Program Files\Trillian
+1c04 skypekit.exe             1 4    9    normal       c:\program files\trillian\plugins
+13d4 conhost.exe              1 17   1    normal       C:\Windows\system32
+1228 explorer.exe             1 1111 625  normal       C:\Windows
+10b4 YandexDisk.exe           1 27   29   normal       C:\Users\Stat!c_V0!D\AppData\Roaming\Yandex\YandexDisk
+0f34 bds.exe                  1 2864 1002 normal       C:\Program Files\Embarcadero\RAD Studio\8.0\bin
+1efc dmaster.exe              1 341  226  normal       C:\Program Files\Download Master
+0e10 dexplore.exe             1 157  181  normal       C:\Program Files\Common Files\Microsoft Shared\Help 9
+0600 KeePass.exe              1 189  119  normal       C:\Total Commander PowerUser v53\Programm\KeePass
+1eb4 WinRAR.exe               1 130  48   normal       C:\Program Files\WinRAR
+241c chrome.exe               1 80   98   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+21a0 chrome.exe               1 30   1    normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+00ec chrome.exe               1 5    1    normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1410 chrome.exe               1 11   1    normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+0f2c chrome.exe               1 5    1    normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1858 chrome.exe               1 4    1    normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1198 chrome.exe               1 4    1    normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+2588 chrome.exe               1 5    1    normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+23ec chrome.exe               1 4    1    normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1fac chrome.exe               1 8    3    normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1778 chrome.exe               1 74   1    below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1160 chrome.exe               1 79   1    below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+0864 chrome.exe               1 55   1    normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1478 chrome.exe               1 168  1    below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+2384 chrome.exe               1 43   1    below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+213c chrome.exe               1 99   1    below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1f58 chrome.exe               1 52   1    below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+2538 chrome.exe               1 4    9    normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+11ec chrome.exe               1 41   1    below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+27cc chrome.exe               1 40   1    below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+24ac rundll32.exe             1 10   5    normal       C:\Windows\system32
+1f64 chrome.exe               1 13   27   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+0ee8 audiodg.exe              0 0    0
+244c PROCEXP.EXE              1 448  184  high         C:\PROGRAM FILES\SYSINTERNALS SUITE
+117c SearchProtocolHost.exe   0 0    0
+1108 SearchFilterHost.exe     0 0    0
+13ac MDIAPP.exe               1 85   60   normal       C:\Users\Stat!c_V0!D\Documents\RAD Studio\Projects\SADP_MDI
+
+hardware:
++ Batteries
+  - Адаптер блока питания (Microsoft)
+  - Батарея с ACPI-совместимым управлением (Microsoft)
+  - Составная батарея (Майкрософт)
++ Computer
+  - ACPI компьютер на базе x86
++ Disk drives
+  - Seagate FreeAgent XTreme ATA Device
+  - WD 3200BMV External USB Device
+  - WDC WD2500BEVT-60ZCT1 ATA Device
++ Display adapters
+  - NVIDIA GeForce G 103M (driver 8.17.12.8562)
++ DVD/CD-ROM drives
+  - TSSTcorp CDDVDW TS-L633M ATA Device
+  - UPK YZW1EB4 SCSI CdRom Device
+  - UPK YZW1EB4 SCSI CdRom Device
++ Human Interface Devices
+  - HID-совместимое устройство
+  - HID-совместимое устройство
+  - HID-совместимое устройство управления
+  - USB-устройство ввода
+  - USB-устройство ввода
++ IDE ATA/ATAPI controllers
+  - ATA Channel 0
+  - ATA Channel 1
+  - ATA Channel 4
+  - ATA Channel 5
+  - Intel(R) ICH9M/M-E Family 4 Port SATA AHCI Controller - 2929 (driver 6.9.1.1001)
++ Imaging devices
+  - HP Webcam-101
++ Keyboards
+  - Клавиатура HID
+  - Стандартная клавиатура PS/2
++ Mice and other pointing devices
+  - HID-совместимая мышь
+  - Synaptics PS/2 Port TouchPad (driver 15.0.17.4)
++ Monitors
+  - Универсальный монитор PnP
++ Network adapters
+  - Atheros AR9285 802.11b/g/n WiFi Adapter (driver 8.0.0.172)
+  - Realtek RTL8102E/RTL8103E Family PCI-E Fast Ethernet NIC (NDIS 6.20)
++ Processors
+  - Intel(R) Pentium(R) Dual  CPU  T3400  @ 2.16GHz
+  - Intel(R) Pentium(R) Dual  CPU  T3400  @ 2.16GHz
++ Sound, video and game controllers
+  - IDT High Definition Audio CODEC (driver 6.10.6276.0)
+  - NVIDIA High Definition Audio (driver 1.2.24.0)
++ Storage controllers
+  - AM4QQVKL IDE Controller
+  - AVJ0OTDL IDE Controller
++ System devices
+  - AMD Low Level Device Driver (driver 1.0.1.0)
+  - CMOS и часы
+  - Intel(R) 82801 PCI мост - 2448
+  - Intel(R) 82802 Firmware концентратор
+  - Intel(R) ICH9 Family PCI Express Root Port 1 - 2940 (driver 8.6.1.1002)
+  - Intel(R) ICH9 Family PCI Express Root Port 2 - 2942 (driver 8.6.1.1002)
+  - Intel(R) ICH9 Family SMBus Controller - 2930 (driver 8.6.1.1001)
+  - Intel(R) ICH9 Family Thermal Subsystem - 2932 (driver 8.6.1.1002)
+  - Intel(R) ICH9M LPC Interface Controller - 2919 (driver 8.6.1.1002)
+  - Microsoft ACPI-совместимая система
+  - Microsoft ACPI-совместимый встроенный контроллер
+  - Microsoft System Management BIOS драйвер
+  - Mobile Intel(R) 4 Series Chipset PCI Express Root Port - 2A41 (driver 9.1.0.1003)
+  - Mobile Intel(R) 4 Series Chipset Processor to DRAM Controller - 2A40 (driver 9.1.0.1003)
+  - Remote Desktop Device Redirector Bus
+  - UMBus перечислитель
+  - UMBus перечислитель корневой шины
+  - Арифметический сопроцессор
+  - Высокоточный таймер событий
+  - Диспетчер томов
+  - Драйвер клавиатуры сервера терминалов
+  - Драйвер мыши сервера терминалов
+  - Драйвер перечислителя виртуальных дисков (Майкрософт)
+  - Драйвер файла в качестве тома
+  - Драйвер шины Virtual PC
+  - Интерфейс управления для ACPI Microsoft Windows
+  - Кнопка питания ACPI
+  - Кнопка прямого запуска приложений
+  - Кнопка прямого запуска приложений
+  - Кнопка прямого запуска приложений
+  - Кнопка прямого запуска приложений
+  - Кнопка прямого запуска приложений
+  - Кнопка прямого запуска приложений
+  - Кнопка прямого запуска приложений
+  - Кнопка спящего режима ACPI
+  - Контроллер High Definition Audio (Microsoft)
+  - Контроллер прямого доступа к памяти
+  - Крышка ACPI
+  - Перечислитель композитной шины
+  - Перечислитель программных устройств Plug and Play
+  - Программируемый контроллер прерываний
+  - Расширенная шина ввода/вывода
+  - Ресурсы системной платы
+  - Ресурсы системной платы
+  - Системный таймер
+  - Термальная зона ACPI
+  - Фиксированная функциональная кнопка ACPI
+  - Шина PCI
++ Universal Serial Bus controllers
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2934 (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2935 (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2936 (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2937 (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2938 (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2939 (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB2 Enhanced Host Controller - 293A (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB2 Enhanced Host Controller - 293C (driver 8.3.0.1011)
+  - Запоминающее устройство для USB
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Составное USB устройство
+  - Составное USB устройство
++ Виртуализация USB
+  - Драйвер разъема виртуализации USB
+
+disassembling:
+[...]
+005bceb0 38   push    $5bcef8
+005bceb5      push    $5bcf08
+005bceba      mov     ecx, [$5d4c34]
+005bcec0      mov     dl, 1
+005bcec2      mov     eax, [$492acc]
+005bcec7    > call    -$11e270 ($49ec5c)     ; Classes.TResourceStream.Create
+005bcecc      mov     ebx, eax
+005bcece 39   mov     eax, [esi+$3b0]
+005bced4      mov     eax, [eax+$2c0]
+005bceda      mov     edx, ebx
+005bcedc      mov     ecx, [eax]
+[...]
+
+date/time         : 2012-05-13, 15:53:22, 365ms
+computer name     : THECOMPOFSTAT1C
+user name         : Stat!c_V0!D
+registered owner  : Stat1c_V01D
+operating system  : Windows 7 Service Pack 1 build 7601
+system language   : Russian
+system up time    : 2 days 11 hours
+program up time   : 841 milliseconds
+processors        : 2x Intel(R) Pentium(R) Dual CPU T3400 @ 2.16GHz
+physical memory   : 1234/3069 MB (free/total)
+free disk space   : (C:) 4,39 GB
+display mode      : 1366x768, 32 bit
+process id        : $11b8
+allocated memory  : 22,85 MB
+command line      : "C:\Users\Stat!c_V0!D\Documents\RAD Studio\Projects\SADP_MDI\MDIAPP.exe" C:\Users\Stat!c_V0!D\Desktop\Main.sv0
+executable        : MDIAPP.exe
+exec. date/time   : 2012-05-13 15:53
+compiled with     : Delphi XE
+madExcept version : 3.0m
+callstack crc     : $0a75a14f, $890b1c75, $890b1c75
+exception number  : 1
+exception class   : EResNotFound
+exception message : Resource RCDATA not found.
+
+main thread ($2230):
+0049ed77 +006f MDIAPP.exe   Classes       Error
+0049edce +0026 MDIAPP.exe   Classes       TResourceStream.Initialize
+0049ec91 +0035 MDIAPP.exe   Classes       TResourceStream.Create
+005bcec7 +001b MDIAPP.exe   about   38 +1 TAboutBox.FormCreate
+0053c985 +0031 MDIAPP.exe   Forms         TCustomForm.DoCreate
+0053c5c9 +0011 MDIAPP.exe   Forms         TCustomForm.AfterConstruction
+00405acd +001d MDIAPP.exe   System        @AfterConstruction
+0053c599 +01a1 MDIAPP.exe   Forms         TCustomForm.Create
+00546c86 +0076 MDIAPP.exe   Forms         TApplication.CreateForm
+005c61a0 +8260 MDIAPP.exe   MDIAPP     28 Finalization
+7743ed6a +0010 kernel32.dll               BaseThreadInitThunk
+
+thread $fb4:
+7759bca0 +36 USER32.dll             RegisterClassA
+00463ab5 +0d MDIAPP.exe   madExcept CallThreadProcSafe
+00463b1f +37 MDIAPP.exe   madExcept ThreadExceptFrame
+7743ed6a +10 kernel32.dll           BaseThreadInitThunk
+>> created by main thread ($2230) at:
+745078e1 +00 gdiplus.dll
+
+thread $7e4:
+77c46a02 +0a ntdll.dll     NtWaitForMultipleObjects
+7743ed6a +10 kernel32.dll  BaseThreadInitThunk
+
+modules:
+00400000 MDIAPP.exe                      C:\Users\Stat!c_V0!D\Documents\RAD Studio\Projects\SADP_MDI
+00e40000 Weareg2.bpl    14.0.3593.25826  C:\Program Files\Embarcadero\ktf
+10000000 RocketDock.dll                  C:\Program Files\RocketDock
+66fb0000 AcLayers.DLL   6.1.7601.17514   C:\Windows\AppPatch
+69090000 RICHED20.DLL   5.31.23.1230     C:\Windows\system32
+6c650000 comctl32.dll   5.82.7601.17514  C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7601.17514_none_ec83dffa859149af
+6eed0000 pshook.dll     3.2.2.45         C:\Program Files\Yandex\Punto Switcher
+720c0000 winspool.drv   6.1.7601.17514   C:\Windows\system32
+73c50000 msimg32.dll    6.1.7600.16385   C:\Windows\system32
+744c0000 gdiplus.dll    6.1.7601.17825   C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.17825_none_72d273598668a06b
+74650000 uxtheme.dll    6.1.7600.16385   C:\Windows\system32
+74690000 comctl32.dll   6.10.7601.17514  C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2
+749f0000 winmm.dll      6.1.7601.17514   C:\Windows\system32
+750a0000 version.dll    6.1.7600.16385   C:\Windows\system32
+75a30000 SspiCli.dll    6.1.7601.17725   C:\Windows\system32
+75a50000 apphelp.dll    6.1.7601.17514   C:\Windows\system32
+75aa0000 CRYPTBASE.dll  6.1.7600.16385   C:\Windows\system32
+75b90000 wsock32.dll    6.1.7600.16385   C:\Windows\system32
+75c90000 profapi.dll    6.1.7600.16385   C:\Windows\system32
+75ca0000 USERENV.dll    6.1.7601.17514   C:\Windows\system32
+75d80000 MPR.dll        6.1.7600.16385   C:\Windows\system32
+75ef0000 KERNELBASE.dll 6.1.7601.17651   C:\Windows\system32
+76090000 MSCTF.dll      6.1.7600.16385   C:\Windows\system32
+76160000 shell32.dll    6.1.7601.17755   C:\Windows\system32
+76db0000 imm32.dll      6.1.7601.17514   C:\Windows\system32
+76f70000 SHLWAPI.dll    6.1.7601.17514   C:\Windows\system32
+76fd0000 advapi32.dll   6.1.7601.17514   C:\Windows\system32
+77070000 LPK.dll        6.1.7600.16385   C:\Windows\system32
+77080000 NSI.dll        6.1.7600.16385   C:\Windows\system32
+77090000 USP10.dll      1.626.7601.17514 C:\Windows\system32
+77130000 PSAPI.DLL      6.1.7600.16385   C:\Windows\system32
+77140000 sechost.dll    6.1.7600.16385   C:\Windows\SYSTEM32
+77310000 imagehlp.dll   6.1.7601.17787   C:\Windows\system32
+77340000 msvcrt.dll     7.0.7601.17744   C:\Windows\system32
+773f0000 kernel32.dll   6.1.7601.17651   C:\Windows\system32
+774d0000 comdlg32.dll   6.1.7601.17514   C:\Windows\system32
+77550000 WS2_32.dll     6.1.7601.17514   C:\Windows\system32
+77590000 USER32.dll     6.1.7601.17514   C:\Windows\system32
+778d0000 ole32.dll      6.1.7601.17514   C:\Windows\system32
+77a30000 RPCRT4.dll     6.1.7601.17514   C:\Windows\system32
+77c00000 ntdll.dll      6.1.7601.17725   C:\Windows\SYSTEM32
+77d40000 oleaut32.dll   6.1.7601.17676   C:\Windows\system32
+77dd0000 GDI32.dll      6.1.7601.17514   C:\Windows\system32
+
+processes:
+0000 Idle                     0 0    0
+0004 System                   0 0    0
+0118 smss.exe                 0 0    0
+017c csrss.exe                0 0    0
+01c0 psxss.exe                0 0    0
+01c8 csrss.exe                1 0    0
+01e0 wininit.exe              0 0    0
+0204 winlogon.exe             1 0    0
+0234 services.exe             0 0    0
+023c lsass.exe                0 0    0
+0248 lsm.exe                  0 0    0
+02b4 svchost.exe              0 0    0
+0318 nvvsvc.exe               0 0    0
+0340 svchost.exe              0 0    0
+03a0 svchost.exe              0 0    0
+03c4 svchost.exe              0 0    0
+03e0 svchost.exe              0 0    0
+0420 stacsv.exe               0 0    0
+0554 svchost.exe              0 0    0
+05ac svchost.exe              0 0    0
+063c spoolsv.exe              0 0    0
+0668 svchost.exe              0 0    0
+06d4 DWENGINE.EXE             0 0    0
+0700 NetworkLicenseServer.exe 0 0    0
+018c DUMeterSvc.exe           0 0    0
+0214 svchost.exe              0 0    0
+04e8 Service.exe              0 0    0
+0868 hasplms.exe              0 0    0
+0a88 PnkBstrA.exe             0 0    0
+0ac4 RoozzUpdater.exe         0 0    0
+0b1c SPIDERNT.EXE             0 0    0
+0b4c sqlwriter.exe            0 0    0
+0b94 svchost.exe              0 0    0
+0be4 TeamViewer_Service.exe   0 0    0
+0c0c TestCompleteService7.exe 0 0    0
+0e7c alg.exe                  0 0    0
+0ea4 svchost.exe              0 0    0
+094c nvxdsync.exe             1 0    0
+0718 nvvsvc.exe               1 0    0
+0158 taskhost.exe             1 25   27   normal       C:\Windows\system32
+0dc0 Dwm.exe                  1 6    2    normal       C:\Windows\system32
+0594 Agent.exe                1 42   39   normal       C:\Program Files\G-Service\Agent
+0724 2GISTrayNotifier.exe     1 8    8    normal       C:\Program Files\2gis\3.0
+0b08 DRWAGNUI.EXE             1 68   18   normal       C:\Program Files\DrWeb AV-Desk
+0ad8 SearchIndexer.exe        0 0    0
+0988 SPIDERUI.EXE             1 13   28   normal       C:\Program Files\DrWeb AV-Desk
+085c nvtray.exe               1 77   4    normal       C:\Program Files\NVIDIA Corporation\Display
+0c38 wmpnetwk.exe             0 0    0
+0674 TSVNCache.exe            1 4    7    normal       C:\Program Files\TortoiseSVN\bin
+0488 LvAgent.exe              1 16   11   normal       C:\Program Files\ABBYY Lingvo x3
+0504 jusched.exe              1 4    2    normal       C:\Program Files\Common Files\Java\Java Update
+0a44 iconoid.exe              1 19   184  normal       C:\Program Files\Iconoid
+029c svchost.exe              0 0    0
+0e14 RocketDock.exe           1 47   29   normal       C:\Program Files\RocketDock
+0e70 StikyNot.exe             1 222  114  normal       C:\Windows\System32
+1050 clip2net.exe             1 172  119  normal       C:\Program Files\Clip2Net
+10c0 GoogleCrashHandler.exe   1 4    1    idle         C:\Users\Stat!c_V0!D\AppData\Local\Google\Update\1.3.21.111
+1130 AlSrvN.exe               1 4    1    normal       C:\Program Files\Alcohol Soft\Alcohol 120\Plugins\Helper
+1144 4Sync.exe                1 113  44   normal       C:\Program Files\4Sync
+1200 sidebar.exe              1 28   36   normal       C:\Program Files\Windows Sidebar
+1360 SkyDrive.exe             1 58   40   normal       C:\Users\Stat!c_V0!D\AppData\Local\Microsoft\SkyDrive
+13b8 svchost.exe              0 0    0
+14b0 rundll32.exe             1 10   6    normal       C:\Windows\system32
+14c0 Dropbox.exe              1 44   27   normal       C:\Users\Stat!c_V0!D\AppData\Roaming\Dropbox\bin
+1564 punto.exe                1 75   36   normal       C:\Program Files\Yandex\Punto Switcher
+168c utorrent.exe             1 676  256  normal       C:\Total Commander PowerUser v53\Programm\uTorrent
+156c OSPPSVC.EXE              0 0    0
+15bc svchost.exe              0 0    0
+12d8 taskhost.exe             1 0    0
+0878 trillian.exe             1 951  261  normal       C:\Program Files\Trillian
+1c04 skypekit.exe             1 4    9    normal       c:\program files\trillian\plugins
+13d4 conhost.exe              1 17   1    normal       C:\Windows\system32
+1228 explorer.exe             1 1110 628  normal       C:\Windows
+10b4 YandexDisk.exe           1 27   29   normal       C:\Users\Stat!c_V0!D\AppData\Roaming\Yandex\YandexDisk
+0f34 bds.exe                  1 2878 1021 normal       C:\Program Files\Embarcadero\RAD Studio\8.0\bin
+1efc dmaster.exe              1 341  226  normal       C:\Program Files\Download Master
+0e10 dexplore.exe             1 157  181  normal       C:\Program Files\Common Files\Microsoft Shared\Help 9
+0600 KeePass.exe              1 189  119  normal       C:\Total Commander PowerUser v53\Programm\KeePass
+1eb4 WinRAR.exe               1 130  48   normal       C:\Program Files\WinRAR
+241c chrome.exe               1 80   98   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+21a0 chrome.exe               1 30   1    normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+00ec chrome.exe               1 5    1    normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1410 chrome.exe               1 11   1    normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+0f2c chrome.exe               1 5    1    normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1858 chrome.exe               1 4    1    normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1198 chrome.exe               1 4    1    normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+2588 chrome.exe               1 5    1    normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+23ec chrome.exe               1 4    1    normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1fac chrome.exe               1 8    3    normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1778 chrome.exe               1 74   1    below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1160 chrome.exe               1 79   1    below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+0864 chrome.exe               1 55   1    normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1478 chrome.exe               1 168  1    below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+2384 chrome.exe               1 43   1    below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+213c chrome.exe               1 99   1    below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1f58 chrome.exe               1 52   1    below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+2538 chrome.exe               1 4    9    normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+11ec chrome.exe               1 41   1    below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+27cc chrome.exe               1 40   1    below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+24ac rundll32.exe             1 10   5    normal       C:\Windows\system32
+1f64 chrome.exe               1 13   26   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+0ee8 audiodg.exe              0 0    0
+244c PROCEXP.EXE              1 448  184  high         C:\PROGRAM FILES\SYSINTERNALS SUITE
+117c SearchProtocolHost.exe   0 0    0
+2034 SearchFilterHost.exe     0 0    0
+11b8 MDIAPP.exe               1 82   50   normal       C:\Users\Stat!c_V0!D\Documents\RAD Studio\Projects\SADP_MDI
+
+hardware:
++ Batteries
+  - Адаптер блока питания (Microsoft)
+  - Батарея с ACPI-совместимым управлением (Microsoft)
+  - Составная батарея (Майкрософт)
++ Computer
+  - ACPI компьютер на базе x86
++ Disk drives
+  - Seagate FreeAgent XTreme ATA Device
+  - WD 3200BMV External USB Device
+  - WDC WD2500BEVT-60ZCT1 ATA Device
++ Display adapters
+  - NVIDIA GeForce G 103M (driver 8.17.12.8562)
++ DVD/CD-ROM drives
+  - TSSTcorp CDDVDW TS-L633M ATA Device
+  - UPK YZW1EB4 SCSI CdRom Device
+  - UPK YZW1EB4 SCSI CdRom Device
++ Human Interface Devices
+  - HID-совместимое устройство
+  - HID-совместимое устройство
+  - HID-совместимое устройство управления
+  - USB-устройство ввода
+  - USB-устройство ввода
++ IDE ATA/ATAPI controllers
+  - ATA Channel 0
+  - ATA Channel 1
+  - ATA Channel 4
+  - ATA Channel 5
+  - Intel(R) ICH9M/M-E Family 4 Port SATA AHCI Controller - 2929 (driver 6.9.1.1001)
++ Imaging devices
+  - HP Webcam-101
++ Keyboards
+  - Клавиатура HID
+  - Стандартная клавиатура PS/2
++ Mice and other pointing devices
+  - HID-совместимая мышь
+  - Synaptics PS/2 Port TouchPad (driver 15.0.17.4)
++ Monitors
+  - Универсальный монитор PnP
++ Network adapters
+  - Atheros AR9285 802.11b/g/n WiFi Adapter (driver 8.0.0.172)
+  - Realtek RTL8102E/RTL8103E Family PCI-E Fast Ethernet NIC (NDIS 6.20)
++ Processors
+  - Intel(R) Pentium(R) Dual  CPU  T3400  @ 2.16GHz
+  - Intel(R) Pentium(R) Dual  CPU  T3400  @ 2.16GHz
++ Sound, video and game controllers
+  - IDT High Definition Audio CODEC (driver 6.10.6276.0)
+  - NVIDIA High Definition Audio (driver 1.2.24.0)
++ Storage controllers
+  - AM4QQVKL IDE Controller
+  - AVJ0OTDL IDE Controller
++ System devices
+  - AMD Low Level Device Driver (driver 1.0.1.0)
+  - CMOS и часы
+  - Intel(R) 82801 PCI мост - 2448
+  - Intel(R) 82802 Firmware концентратор
+  - Intel(R) ICH9 Family PCI Express Root Port 1 - 2940 (driver 8.6.1.1002)
+  - Intel(R) ICH9 Family PCI Express Root Port 2 - 2942 (driver 8.6.1.1002)
+  - Intel(R) ICH9 Family SMBus Controller - 2930 (driver 8.6.1.1001)
+  - Intel(R) ICH9 Family Thermal Subsystem - 2932 (driver 8.6.1.1002)
+  - Intel(R) ICH9M LPC Interface Controller - 2919 (driver 8.6.1.1002)
+  - Microsoft ACPI-совместимая система
+  - Microsoft ACPI-совместимый встроенный контроллер
+  - Microsoft System Management BIOS драйвер
+  - Mobile Intel(R) 4 Series Chipset PCI Express Root Port - 2A41 (driver 9.1.0.1003)
+  - Mobile Intel(R) 4 Series Chipset Processor to DRAM Controller - 2A40 (driver 9.1.0.1003)
+  - Remote Desktop Device Redirector Bus
+  - UMBus перечислитель
+  - UMBus перечислитель корневой шины
+  - Арифметический сопроцессор
+  - Высокоточный таймер событий
+  - Диспетчер томов
+  - Драйвер клавиатуры сервера терминалов
+  - Драйвер мыши сервера терминалов
+  - Драйвер перечислителя виртуальных дисков (Майкрософт)
+  - Драйвер файла в качестве тома
+  - Драйвер шины Virtual PC
+  - Интерфейс управления для ACPI Microsoft Windows
+  - Кнопка питания ACPI
+  - Кнопка прямого запуска приложений
+  - Кнопка прямого запуска приложений
+  - Кнопка прямого запуска приложений
+  - Кнопка прямого запуска приложений
+  - Кнопка прямого запуска приложений
+  - Кнопка прямого запуска приложений
+  - Кнопка прямого запуска приложений
+  - Кнопка спящего режима ACPI
+  - Контроллер High Definition Audio (Microsoft)
+  - Контроллер прямого доступа к памяти
+  - Крышка ACPI
+  - Перечислитель композитной шины
+  - Перечислитель программных устройств Plug and Play
+  - Программируемый контроллер прерываний
+  - Расширенная шина ввода/вывода
+  - Ресурсы системной платы
+  - Ресурсы системной платы
+  - Системный таймер
+  - Термальная зона ACPI
+  - Фиксированная функциональная кнопка ACPI
+  - Шина PCI
++ Universal Serial Bus controllers
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2934 (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2935 (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2936 (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2937 (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2938 (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2939 (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB2 Enhanced Host Controller - 293A (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB2 Enhanced Host Controller - 293C (driver 8.3.0.1011)
+  - Запоминающее устройство для USB
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Составное USB устройство
+  - Составное USB устройство
++ Виртуализация USB
+  - Драйвер разъема виртуализации USB
+
+disassembling:
+[...]
+005bceb0 38   push    $5bcef8
+005bceb5      push    $5bcf08
+005bceba      mov     ecx, [$5d4c34]
+005bcec0      mov     dl, 1
+005bcec2      mov     eax, [$492acc]
+005bcec7    > call    -$11e270 ($49ec5c)     ; Classes.TResourceStream.Create
+005bcecc      mov     ebx, eax
+005bcece 39   mov     eax, [esi+$3b0]
+005bced4      mov     eax, [eax+$2c0]
+005bceda      mov     edx, ebx
+005bcedc      mov     ecx, [eax]
+[...]
+
+date/time         : 2012-05-13, 15:57:03, 101ms
+computer name     : THECOMPOFSTAT1C
+user name         : Stat!c_V0!D
+registered owner  : Stat1c_V01D
+operating system  : Windows 7 Service Pack 1 build 7601
+system language   : Russian
+system up time    : 2 days 11 hours
+program up time   : 559 milliseconds
+processors        : 2x Intel(R) Pentium(R) Dual CPU T3400 @ 2.16GHz
+physical memory   : 1165/3069 MB (free/total)
+free disk space   : (C:) 4,39 GB
+display mode      : 1366x768, 32 bit
+process id        : $111c
+allocated memory  : 22,85 MB
+command line      : "C:\Users\Stat!c_V0!D\Documents\RAD Studio\Projects\SADP_MDI\MDIAPP.exe" C:\Users\Stat!c_V0!D\Desktop\Main.sv0
+executable        : MDIAPP.exe
+exec. date/time   : 2012-05-13 15:57
+compiled with     : Delphi XE
+madExcept version : 3.0m
+callstack crc     : $0a75a14f, $d1db8de1, $d1db8de1
+exception number  : 1
+exception class   : EResNotFound
+exception message : Resource 10 not found.
+
+main thread ($1cfc):
+0049ed77 +006f MDIAPP.exe   Classes       Error
+0049edce +0026 MDIAPP.exe   Classes       TResourceStream.Initialize
+0049ece2 +002e MDIAPP.exe   Classes       TResourceStream.CreateFromID
+005bcec4 +0018 MDIAPP.exe   about   38 +1 TAboutBox.FormCreate
+0053c985 +0031 MDIAPP.exe   Forms         TCustomForm.DoCreate
+0053c5c9 +0011 MDIAPP.exe   Forms         TCustomForm.AfterConstruction
+00405acd +001d MDIAPP.exe   System        @AfterConstruction
+0053c599 +01a1 MDIAPP.exe   Forms         TCustomForm.Create
+00546c86 +0076 MDIAPP.exe   Forms         TApplication.CreateForm
+005c61a0 +8280 MDIAPP.exe   MDIAPP     28 Finalization
+7743ed6a +0010 kernel32.dll               BaseThreadInitThunk
+
+thread $19ac:
+77c46a02 +000a ntdll.dll                NtWaitForMultipleObjects
+75ef6a30 +0000 KERNELBASE.dll           WaitForMultipleObjectsEx
+7743bd19 +0089 kernel32.dll             WaitForMultipleObjectsEx
+775a62f3 +7f8a USER32.dll               MsgWaitForMultipleObjectsEx
+775a37f2 +001a USER32.dll               MsgWaitForMultipleObjects
+00463ab5 +000d MDIAPP.exe     madExcept CallThreadProcSafe
+00463b1f +0037 MDIAPP.exe     madExcept ThreadExceptFrame
+7743ed6a +0010 kernel32.dll             BaseThreadInitThunk
+>> created by main thread ($1cfc) at:
+745078e1 +0000 gdiplus.dll
+
+thread $96c:
+77c46a02 +0a ntdll.dll     NtWaitForMultipleObjects
+7743ed6a +10 kernel32.dll  BaseThreadInitThunk
+
+modules:
+00240000 Weareg2.bpl    14.0.3593.25826  C:\Program Files\Embarcadero\ktf
+00400000 MDIAPP.exe                      C:\Users\Stat!c_V0!D\Documents\RAD Studio\Projects\SADP_MDI
+10000000 RocketDock.dll                  C:\Program Files\RocketDock
+66fb0000 AcLayers.DLL   6.1.7601.17514   C:\Windows\AppPatch
+69090000 RICHED20.DLL   5.31.23.1230     C:\Windows\system32
+6c650000 comctl32.dll   5.82.7601.17514  C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7601.17514_none_ec83dffa859149af
+6eed0000 pshook.dll     3.2.2.45         C:\Program Files\Yandex\Punto Switcher
+720c0000 winspool.drv   6.1.7601.17514   C:\Windows\system32
+73c50000 msimg32.dll    6.1.7600.16385   C:\Windows\system32
+744c0000 gdiplus.dll    6.1.7601.17825   C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.17825_none_72d273598668a06b
+74650000 uxtheme.dll    6.1.7600.16385   C:\Windows\system32
+74690000 comctl32.dll   6.10.7601.17514  C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2
+749f0000 winmm.dll      6.1.7601.17514   C:\Windows\system32
+750a0000 version.dll    6.1.7600.16385   C:\Windows\system32
+75a30000 SspiCli.dll    6.1.7601.17725   C:\Windows\system32
+75a50000 apphelp.dll    6.1.7601.17514   C:\Windows\system32
+75aa0000 CRYPTBASE.dll  6.1.7600.16385   C:\Windows\system32
+75b90000 wsock32.dll    6.1.7600.16385   C:\Windows\system32
+75c90000 profapi.dll    6.1.7600.16385   C:\Windows\system32
+75ca0000 USERENV.dll    6.1.7601.17514   C:\Windows\system32
+75d80000 MPR.dll        6.1.7600.16385   C:\Windows\system32
+75ef0000 KERNELBASE.dll 6.1.7601.17651   C:\Windows\system32
+76090000 MSCTF.dll      6.1.7600.16385   C:\Windows\system32
+76160000 shell32.dll    6.1.7601.17755   C:\Windows\system32
+76db0000 imm32.dll      6.1.7601.17514   C:\Windows\system32
+76f70000 SHLWAPI.dll    6.1.7601.17514   C:\Windows\system32
+76fd0000 advapi32.dll   6.1.7601.17514   C:\Windows\system32
+77070000 LPK.dll        6.1.7600.16385   C:\Windows\system32
+77080000 NSI.dll        6.1.7600.16385   C:\Windows\system32
+77090000 USP10.dll      1.626.7601.17514 C:\Windows\system32
+77130000 PSAPI.DLL      6.1.7600.16385   C:\Windows\system32
+77140000 sechost.dll    6.1.7600.16385   C:\Windows\SYSTEM32
+77310000 imagehlp.dll   6.1.7601.17787   C:\Windows\system32
+77340000 msvcrt.dll     7.0.7601.17744   C:\Windows\system32
+773f0000 kernel32.dll   6.1.7601.17651   C:\Windows\system32
+774d0000 comdlg32.dll   6.1.7601.17514   C:\Windows\system32
+77550000 WS2_32.dll     6.1.7601.17514   C:\Windows\system32
+77590000 USER32.dll     6.1.7601.17514   C:\Windows\system32
+778d0000 ole32.dll      6.1.7601.17514   C:\Windows\system32
+77a30000 RPCRT4.dll     6.1.7601.17514   C:\Windows\system32
+77c00000 ntdll.dll      6.1.7601.17725   C:\Windows\SYSTEM32
+77d40000 oleaut32.dll   6.1.7601.17676   C:\Windows\system32
+77dd0000 GDI32.dll      6.1.7601.17514   C:\Windows\system32
+
+processes:
+0000 Idle                     0 0    0
+0004 System                   0 0    0
+0118 smss.exe                 0 0    0
+017c csrss.exe                0 0    0
+01c0 psxss.exe                0 0    0
+01c8 csrss.exe                1 0    0
+01e0 wininit.exe              0 0    0
+0204 winlogon.exe             1 0    0
+0234 services.exe             0 0    0
+023c lsass.exe                0 0    0
+0248 lsm.exe                  0 0    0
+02b4 svchost.exe              0 0    0
+0318 nvvsvc.exe               0 0    0
+0340 svchost.exe              0 0    0
+03a0 svchost.exe              0 0    0
+03c4 svchost.exe              0 0    0
+03e0 svchost.exe              0 0    0
+0420 stacsv.exe               0 0    0
+0554 svchost.exe              0 0    0
+05ac svchost.exe              0 0    0
+063c spoolsv.exe              0 0    0
+0668 svchost.exe              0 0    0
+06d4 DWENGINE.EXE             0 0    0
+0700 NetworkLicenseServer.exe 0 0    0
+018c DUMeterSvc.exe           0 0    0
+0214 svchost.exe              0 0    0
+04e8 Service.exe              0 0    0
+0868 hasplms.exe              0 0    0
+0a88 PnkBstrA.exe             0 0    0
+0ac4 RoozzUpdater.exe         0 0    0
+0b1c SPIDERNT.EXE             0 0    0
+0b4c sqlwriter.exe            0 0    0
+0b94 svchost.exe              0 0    0
+0be4 TeamViewer_Service.exe   0 0    0
+0c0c TestCompleteService7.exe 0 0    0
+0e7c alg.exe                  0 0    0
+0ea4 svchost.exe              0 0    0
+094c nvxdsync.exe             1 0    0
+0718 nvvsvc.exe               1 0    0
+0158 taskhost.exe             1 25   27  normal       C:\Windows\system32
+0dc0 Dwm.exe                  1 6    2   normal       C:\Windows\system32
+0594 Agent.exe                1 42   39  normal       C:\Program Files\G-Service\Agent
+0724 2GISTrayNotifier.exe     1 8    8   normal       C:\Program Files\2gis\3.0
+0b08 DRWAGNUI.EXE             1 68   18  normal       C:\Program Files\DrWeb AV-Desk
+0ad8 SearchIndexer.exe        0 0    0
+0988 SPIDERUI.EXE             1 13   28  normal       C:\Program Files\DrWeb AV-Desk
+085c nvtray.exe               1 77   4   normal       C:\Program Files\NVIDIA Corporation\Display
+0c38 wmpnetwk.exe             0 0    0
+0674 TSVNCache.exe            1 4    7   normal       C:\Program Files\TortoiseSVN\bin
+0488 LvAgent.exe              1 16   11  normal       C:\Program Files\ABBYY Lingvo x3
+0504 jusched.exe              1 4    2   normal       C:\Program Files\Common Files\Java\Java Update
+0a44 iconoid.exe              1 19   184 normal       C:\Program Files\Iconoid
+029c svchost.exe              0 0    0
+0e14 RocketDock.exe           1 47   29  normal       C:\Program Files\RocketDock
+0e70 StikyNot.exe             1 222  114 normal       C:\Windows\System32
+1050 clip2net.exe             1 172  119 normal       C:\Program Files\Clip2Net
+10c0 GoogleCrashHandler.exe   1 4    1   idle         C:\Users\Stat!c_V0!D\AppData\Local\Google\Update\1.3.21.111
+1130 AlSrvN.exe               1 4    1   normal       C:\Program Files\Alcohol Soft\Alcohol 120\Plugins\Helper
+1144 4Sync.exe                1 113  44  normal       C:\Program Files\4Sync
+1200 sidebar.exe              1 28   36  normal       C:\Program Files\Windows Sidebar
+1360 SkyDrive.exe             1 58   40  normal       C:\Users\Stat!c_V0!D\AppData\Local\Microsoft\SkyDrive
+13b8 svchost.exe              0 0    0
+14b0 rundll32.exe             1 10   6   normal       C:\Windows\system32
+14c0 Dropbox.exe              1 44   27  normal       C:\Users\Stat!c_V0!D\AppData\Roaming\Dropbox\bin
+1564 punto.exe                1 77   37  normal       C:\Program Files\Yandex\Punto Switcher
+168c utorrent.exe             1 676  256 normal       C:\Total Commander PowerUser v53\Programm\uTorrent
+156c OSPPSVC.EXE              0 0    0
+15bc svchost.exe              0 0    0
+12d8 taskhost.exe             1 0    0
+0878 trillian.exe             1 951  261 normal       C:\Program Files\Trillian
+1c04 skypekit.exe             1 4    9   normal       c:\program files\trillian\plugins
+13d4 conhost.exe              1 17   1   normal       C:\Windows\system32
+1228 explorer.exe             1 1151 645 normal       C:\Windows
+10b4 YandexDisk.exe           1 27   29  normal       C:\Users\Stat!c_V0!D\AppData\Roaming\Yandex\YandexDisk
+1efc dmaster.exe              1 336  226 normal       C:\Program Files\Download Master
+0e10 dexplore.exe             1 157  181 normal       C:\Program Files\Common Files\Microsoft Shared\Help 9
+0600 KeePass.exe              1 189  119 normal       C:\Total Commander PowerUser v53\Programm\KeePass
+1eb4 WinRAR.exe               1 130  48  normal       C:\Program Files\WinRAR
+241c chrome.exe               1 78   97  normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+21a0 chrome.exe               1 30   1   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+00ec chrome.exe               1 5    1   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1410 chrome.exe               1 11   1   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+0f2c chrome.exe               1 5    1   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1858 chrome.exe               1 4    1   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1198 chrome.exe               1 4    1   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+2588 chrome.exe               1 5    1   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+23ec chrome.exe               1 4    1   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1fac chrome.exe               1 8    3   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1778 chrome.exe               1 74   1   below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1160 chrome.exe               1 79   1   below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+0864 chrome.exe               1 55   1   below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1478 chrome.exe               1 168  1   below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+2384 chrome.exe               1 43   1   below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+213c chrome.exe               1 99   1   below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1f58 chrome.exe               1 52   1   below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+2538 chrome.exe               1 4    9   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+11ec chrome.exe               1 41   1   below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+27cc chrome.exe               1 40   1   below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+24ac rundll32.exe             1 10   5   normal       C:\Windows\system32
+1f64 chrome.exe               1 13   27  normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+0ee8 audiodg.exe              0 0    0
+244c PROCEXP.EXE              1 463  189 high         C:\PROGRAM FILES\SYSINTERNALS SUITE
+117c SearchProtocolHost.exe   0 0    0
+25e8 pexplorer.exe            1 299  187 normal       C:\Program Files\PE Explorer
+25f0 bds.exe                  1 2708 806 normal       C:\Program Files\Embarcadero\RAD Studio\8.0\bin
+1460 SearchFilterHost.exe     0 0    0
+111c MDIAPP.exe               1 85   60  normal       C:\Users\Stat!c_V0!D\Documents\RAD Studio\Projects\SADP_MDI
+1760 DllHost.exe              1 4    6   normal       C:\Windows\system32
+
+hardware:
++ Batteries
+  - Адаптер блока питания (Microsoft)
+  - Батарея с ACPI-совместимым управлением (Microsoft)
+  - Составная батарея (Майкрософт)
++ Computer
+  - ACPI компьютер на базе x86
++ Disk drives
+  - Seagate FreeAgent XTreme ATA Device
+  - WD 3200BMV External USB Device
+  - WDC WD2500BEVT-60ZCT1 ATA Device
++ Display adapters
+  - NVIDIA GeForce G 103M (driver 8.17.12.8562)
++ DVD/CD-ROM drives
+  - TSSTcorp CDDVDW TS-L633M ATA Device
+  - UPK YZW1EB4 SCSI CdRom Device
+  - UPK YZW1EB4 SCSI CdRom Device
++ Human Interface Devices
+  - HID-совместимое устройство
+  - HID-совместимое устройство
+  - HID-совместимое устройство управления
+  - USB-устройство ввода
+  - USB-устройство ввода
++ IDE ATA/ATAPI controllers
+  - ATA Channel 0
+  - ATA Channel 1
+  - ATA Channel 4
+  - ATA Channel 5
+  - Intel(R) ICH9M/M-E Family 4 Port SATA AHCI Controller - 2929 (driver 6.9.1.1001)
++ Imaging devices
+  - HP Webcam-101
++ Keyboards
+  - Клавиатура HID
+  - Стандартная клавиатура PS/2
++ Mice and other pointing devices
+  - HID-совместимая мышь
+  - Synaptics PS/2 Port TouchPad (driver 15.0.17.4)
++ Monitors
+  - Универсальный монитор PnP
++ Network adapters
+  - Atheros AR9285 802.11b/g/n WiFi Adapter (driver 8.0.0.172)
+  - Realtek RTL8102E/RTL8103E Family PCI-E Fast Ethernet NIC (NDIS 6.20)
++ Processors
+  - Intel(R) Pentium(R) Dual  CPU  T3400  @ 2.16GHz
+  - Intel(R) Pentium(R) Dual  CPU  T3400  @ 2.16GHz
++ Sound, video and game controllers
+  - IDT High Definition Audio CODEC (driver 6.10.6276.0)
+  - NVIDIA High Definition Audio (driver 1.2.24.0)
++ Storage controllers
+  - AM4QQVKL IDE Controller
+  - AVJ0OTDL IDE Controller
++ System devices
+  - AMD Low Level Device Driver (driver 1.0.1.0)
+  - CMOS и часы
+  - Intel(R) 82801 PCI мост - 2448
+  - Intel(R) 82802 Firmware концентратор
+  - Intel(R) ICH9 Family PCI Express Root Port 1 - 2940 (driver 8.6.1.1002)
+  - Intel(R) ICH9 Family PCI Express Root Port 2 - 2942 (driver 8.6.1.1002)
+  - Intel(R) ICH9 Family SMBus Controller - 2930 (driver 8.6.1.1001)
+  - Intel(R) ICH9 Family Thermal Subsystem - 2932 (driver 8.6.1.1002)
+  - Intel(R) ICH9M LPC Interface Controller - 2919 (driver 8.6.1.1002)
+  - Microsoft ACPI-совместимая система
+  - Microsoft ACPI-совместимый встроенный контроллер
+  - Microsoft System Management BIOS драйвер
+  - Mobile Intel(R) 4 Series Chipset PCI Express Root Port - 2A41 (driver 9.1.0.1003)
+  - Mobile Intel(R) 4 Series Chipset Processor to DRAM Controller - 2A40 (driver 9.1.0.1003)
+  - Remote Desktop Device Redirector Bus
+  - UMBus перечислитель
+  - UMBus перечислитель корневой шины
+  - Арифметический сопроцессор
+  - Высокоточный таймер событий
+  - Диспетчер томов
+  - Драйвер клавиатуры сервера терминалов
+  - Драйвер мыши сервера терминалов
+  - Драйвер перечислителя виртуальных дисков (Майкрософт)
+  - Драйвер файла в качестве тома
+  - Драйвер шины Virtual PC
+  - Интерфейс управления для ACPI Microsoft Windows
+  - Кнопка питания ACPI
+  - Кнопка прямого запуска приложений
+  - Кнопка прямого запуска приложений
+  - Кнопка прямого запуска приложений
+  - Кнопка прямого запуска приложений
+  - Кнопка прямого запуска приложений
+  - Кнопка прямого запуска приложений
+  - Кнопка прямого запуска приложений
+  - Кнопка спящего режима ACPI
+  - Контроллер High Definition Audio (Microsoft)
+  - Контроллер прямого доступа к памяти
+  - Крышка ACPI
+  - Перечислитель композитной шины
+  - Перечислитель программных устройств Plug and Play
+  - Программируемый контроллер прерываний
+  - Расширенная шина ввода/вывода
+  - Ресурсы системной платы
+  - Ресурсы системной платы
+  - Системный таймер
+  - Термальная зона ACPI
+  - Фиксированная функциональная кнопка ACPI
+  - Шина PCI
++ Universal Serial Bus controllers
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2934 (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2935 (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2936 (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2937 (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2938 (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2939 (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB2 Enhanced Host Controller - 293A (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB2 Enhanced Host Controller - 293C (driver 8.3.0.1011)
+  - Запоминающее устройство для USB
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Составное USB устройство
+  - Составное USB устройство
++ Виртуализация USB
+  - Драйвер разъема виртуализации USB
+
+disassembling:
+[...]
+005bceb0 38   push    $a
+005bceb2      push    $5bcee8
+005bceb7      mov     ecx, [$5d4c34]
+005bcebd      mov     dl, 1
+005bcebf      mov     eax, [$492acc]
+005bcec4    > call    -$11e215 ($49ecb4)     ; Classes.TResourceStream.CreateFromID
+005bcec9      mov     ebx, eax
+005bcecb 39   mov     eax, [esi+$3b0]
+005bced1      mov     eax, [eax+$2c0]
+005bced7      mov     edx, ebx
+005bced9      mov     ecx, [eax]
+[...]
+
+date/time         : 2012-05-13, 15:57:49, 459ms
+computer name     : THECOMPOFSTAT1C
+user name         : Stat!c_V0!D
+registered owner  : Stat1c_V01D
+operating system  : Windows 7 Service Pack 1 build 7601
+system language   : Russian
+system up time    : 2 days 11 hours
+program up time   : 970 milliseconds
+processors        : 2x Intel(R) Pentium(R) Dual CPU T3400 @ 2.16GHz
+physical memory   : 1140/3069 MB (free/total)
+free disk space   : (C:) 4,39 GB
+display mode      : 1366x768, 32 bit
+process id        : $1e7c
+allocated memory  : 22,85 MB
+command line      : "C:\Users\Stat!c_V0!D\Documents\RAD Studio\Projects\SADP_MDI\MDIAPP.exe" C:\Users\Stat!c_V0!D\Desktop\Main.sv0
+executable        : MDIAPP.exe
+exec. date/time   : 2012-05-13 15:57
+compiled with     : Delphi XE
+madExcept version : 3.0m
+callstack crc     : $0a75a14f, $890b1c75, $890b1c75
+exception number  : 1
+exception class   : EResNotFound
+exception message : Resource RC Data not found.
+
+main thread ($1580):
+0049ed77 +006f MDIAPP.exe   Classes       Error
+0049edce +0026 MDIAPP.exe   Classes       TResourceStream.Initialize
+0049ec91 +0035 MDIAPP.exe   Classes       TResourceStream.Create
+005bcec7 +001b MDIAPP.exe   about   38 +1 TAboutBox.FormCreate
+0053c985 +0031 MDIAPP.exe   Forms         TCustomForm.DoCreate
+0053c5c9 +0011 MDIAPP.exe   Forms         TCustomForm.AfterConstruction
+00405acd +001d MDIAPP.exe   System        @AfterConstruction
+0053c599 +01a1 MDIAPP.exe   Forms         TCustomForm.Create
+00546c86 +0076 MDIAPP.exe   Forms         TApplication.CreateForm
+005c61a0 +8260 MDIAPP.exe   MDIAPP     28 Finalization
+7743ed6a +0010 kernel32.dll               BaseThreadInitThunk
+
+thread $12c8:
+77c46a02 +000a ntdll.dll                NtWaitForMultipleObjects
+75ef6a30 +0000 KERNELBASE.dll           WaitForMultipleObjectsEx
+7743bd19 +0089 kernel32.dll             WaitForMultipleObjectsEx
+775a62f3 +7f8a USER32.dll               MsgWaitForMultipleObjectsEx
+775a37f2 +001a USER32.dll               MsgWaitForMultipleObjects
+00463ab5 +000d MDIAPP.exe     madExcept CallThreadProcSafe
+00463b1f +0037 MDIAPP.exe     madExcept ThreadExceptFrame
+7743ed6a +0010 kernel32.dll             BaseThreadInitThunk
+>> created by main thread ($1580) at:
+745078e1 +0000 gdiplus.dll
+
+thread $a5c:
+77c46a02 +0a ntdll.dll     NtWaitForMultipleObjects
+7743ed6a +10 kernel32.dll  BaseThreadInitThunk
+
+modules:
+00320000 Weareg2.bpl    14.0.3593.25826  C:\Program Files\Embarcadero\ktf
+00400000 MDIAPP.exe                      C:\Users\Stat!c_V0!D\Documents\RAD Studio\Projects\SADP_MDI
+10000000 RocketDock.dll                  C:\Program Files\RocketDock
+66fb0000 AcLayers.DLL   6.1.7601.17514   C:\Windows\AppPatch
+69090000 RICHED20.DLL   5.31.23.1230     C:\Windows\system32
+6c650000 comctl32.dll   5.82.7601.17514  C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7601.17514_none_ec83dffa859149af
+6eed0000 pshook.dll     3.2.2.45         C:\Program Files\Yandex\Punto Switcher
+720c0000 winspool.drv   6.1.7601.17514   C:\Windows\system32
+73c50000 msimg32.dll    6.1.7600.16385   C:\Windows\system32
+744c0000 gdiplus.dll    6.1.7601.17825   C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.17825_none_72d273598668a06b
+74650000 uxtheme.dll    6.1.7600.16385   C:\Windows\system32
+74690000 comctl32.dll   6.10.7601.17514  C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2
+749f0000 winmm.dll      6.1.7601.17514   C:\Windows\system32
+750a0000 version.dll    6.1.7600.16385   C:\Windows\system32
+75a30000 SspiCli.dll    6.1.7601.17725   C:\Windows\system32
+75a50000 apphelp.dll    6.1.7601.17514   C:\Windows\system32
+75aa0000 CRYPTBASE.dll  6.1.7600.16385   C:\Windows\system32
+75b90000 wsock32.dll    6.1.7600.16385   C:\Windows\system32
+75c90000 profapi.dll    6.1.7600.16385   C:\Windows\system32
+75ca0000 USERENV.dll    6.1.7601.17514   C:\Windows\system32
+75d80000 MPR.dll        6.1.7600.16385   C:\Windows\system32
+75ef0000 KERNELBASE.dll 6.1.7601.17651   C:\Windows\system32
+76090000 MSCTF.dll      6.1.7600.16385   C:\Windows\system32
+76160000 shell32.dll    6.1.7601.17755   C:\Windows\system32
+76db0000 imm32.dll      6.1.7601.17514   C:\Windows\system32
+76f70000 SHLWAPI.dll    6.1.7601.17514   C:\Windows\system32
+76fd0000 advapi32.dll   6.1.7601.17514   C:\Windows\system32
+77070000 LPK.dll        6.1.7600.16385   C:\Windows\system32
+77080000 NSI.dll        6.1.7600.16385   C:\Windows\system32
+77090000 USP10.dll      1.626.7601.17514 C:\Windows\system32
+77130000 PSAPI.DLL      6.1.7600.16385   C:\Windows\system32
+77140000 sechost.dll    6.1.7600.16385   C:\Windows\SYSTEM32
+77310000 imagehlp.dll   6.1.7601.17787   C:\Windows\system32
+77340000 msvcrt.dll     7.0.7601.17744   C:\Windows\system32
+773f0000 kernel32.dll   6.1.7601.17651   C:\Windows\system32
+774d0000 comdlg32.dll   6.1.7601.17514   C:\Windows\system32
+77550000 WS2_32.dll     6.1.7601.17514   C:\Windows\system32
+77590000 USER32.dll     6.1.7601.17514   C:\Windows\system32
+778d0000 ole32.dll      6.1.7601.17514   C:\Windows\system32
+77a30000 RPCRT4.dll     6.1.7601.17514   C:\Windows\system32
+77c00000 ntdll.dll      6.1.7601.17725   C:\Windows\SYSTEM32
+77d40000 oleaut32.dll   6.1.7601.17676   C:\Windows\system32
+77dd0000 GDI32.dll      6.1.7601.17514   C:\Windows\system32
+
+processes:
+0000 Idle                     0 0    0
+0004 System                   0 0    0
+0118 smss.exe                 0 0    0
+017c csrss.exe                0 0    0
+01c0 psxss.exe                0 0    0
+01c8 csrss.exe                1 0    0
+01e0 wininit.exe              0 0    0
+0204 winlogon.exe             1 0    0
+0234 services.exe             0 0    0
+023c lsass.exe                0 0    0
+0248 lsm.exe                  0 0    0
+02b4 svchost.exe              0 0    0
+0318 nvvsvc.exe               0 0    0
+0340 svchost.exe              0 0    0
+03a0 svchost.exe              0 0    0
+03c4 svchost.exe              0 0    0
+03e0 svchost.exe              0 0    0
+0420 stacsv.exe               0 0    0
+0554 svchost.exe              0 0    0
+05ac svchost.exe              0 0    0
+063c spoolsv.exe              0 0    0
+0668 svchost.exe              0 0    0
+06d4 DWENGINE.EXE             0 0    0
+0700 NetworkLicenseServer.exe 0 0    0
+018c DUMeterSvc.exe           0 0    0
+0214 svchost.exe              0 0    0
+04e8 Service.exe              0 0    0
+0868 hasplms.exe              0 0    0
+0a88 PnkBstrA.exe             0 0    0
+0ac4 RoozzUpdater.exe         0 0    0
+0b1c SPIDERNT.EXE             0 0    0
+0b4c sqlwriter.exe            0 0    0
+0b94 svchost.exe              0 0    0
+0be4 TeamViewer_Service.exe   0 0    0
+0c0c TestCompleteService7.exe 0 0    0
+0e7c alg.exe                  0 0    0
+0ea4 svchost.exe              0 0    0
+094c nvxdsync.exe             1 0    0
+0718 nvvsvc.exe               1 0    0
+0158 taskhost.exe             1 25   26  normal       C:\Windows\system32
+0dc0 Dwm.exe                  1 6    2   normal       C:\Windows\system32
+0594 Agent.exe                1 42   39  normal       C:\Program Files\G-Service\Agent
+0724 2GISTrayNotifier.exe     1 8    8   normal       C:\Program Files\2gis\3.0
+0b08 DRWAGNUI.EXE             1 68   18  normal       C:\Program Files\DrWeb AV-Desk
+0ad8 SearchIndexer.exe        0 0    0
+0988 SPIDERUI.EXE             1 13   28  normal       C:\Program Files\DrWeb AV-Desk
+085c nvtray.exe               1 77   4   normal       C:\Program Files\NVIDIA Corporation\Display
+0c38 wmpnetwk.exe             0 0    0
+0674 TSVNCache.exe            1 4    7   normal       C:\Program Files\TortoiseSVN\bin
+0488 LvAgent.exe              1 16   11  normal       C:\Program Files\ABBYY Lingvo x3
+0504 jusched.exe              1 4    2   normal       C:\Program Files\Common Files\Java\Java Update
+0a44 iconoid.exe              1 19   184 normal       C:\Program Files\Iconoid
+029c svchost.exe              0 0    0
+0e14 RocketDock.exe           1 47   29  normal       C:\Program Files\RocketDock
+0e70 StikyNot.exe             1 222  114 normal       C:\Windows\System32
+1050 clip2net.exe             1 172  119 normal       C:\Program Files\Clip2Net
+10c0 GoogleCrashHandler.exe   1 4    1   idle         C:\Users\Stat!c_V0!D\AppData\Local\Google\Update\1.3.21.111
+1130 AlSrvN.exe               1 4    1   normal       C:\Program Files\Alcohol Soft\Alcohol 120\Plugins\Helper
+1144 4Sync.exe                1 113  44  normal       C:\Program Files\4Sync
+1200 sidebar.exe              1 28   36  normal       C:\Program Files\Windows Sidebar
+1360 SkyDrive.exe             1 58   40  normal       C:\Users\Stat!c_V0!D\AppData\Local\Microsoft\SkyDrive
+13b8 svchost.exe              0 0    0
+14b0 rundll32.exe             1 10   6   normal       C:\Windows\system32
+14c0 Dropbox.exe              1 44   27  normal       C:\Users\Stat!c_V0!D\AppData\Roaming\Dropbox\bin
+1564 punto.exe                1 75   36  normal       C:\Program Files\Yandex\Punto Switcher
+168c utorrent.exe             1 676  256 normal       C:\Total Commander PowerUser v53\Programm\uTorrent
+156c OSPPSVC.EXE              0 0    0
+15bc svchost.exe              0 0    0
+12d8 taskhost.exe             1 0    0
+0878 trillian.exe             1 951  261 normal       C:\Program Files\Trillian
+1c04 skypekit.exe             1 4    9   normal       c:\program files\trillian\plugins
+13d4 conhost.exe              1 17   1   normal       C:\Windows\system32
+1228 explorer.exe             1 1142 642 normal       C:\Windows
+10b4 YandexDisk.exe           1 27   29  normal       C:\Users\Stat!c_V0!D\AppData\Roaming\Yandex\YandexDisk
+1efc dmaster.exe              1 336  226 normal       C:\Program Files\Download Master
+0e10 dexplore.exe             1 157  181 normal       C:\Program Files\Common Files\Microsoft Shared\Help 9
+0600 KeePass.exe              1 189  119 normal       C:\Total Commander PowerUser v53\Programm\KeePass
+1eb4 WinRAR.exe               1 130  48  normal       C:\Program Files\WinRAR
+241c chrome.exe               1 78   97  normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+21a0 chrome.exe               1 30   1   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+00ec chrome.exe               1 5    1   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1410 chrome.exe               1 11   1   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+0f2c chrome.exe               1 5    1   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1858 chrome.exe               1 4    1   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1198 chrome.exe               1 4    1   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+2588 chrome.exe               1 5    1   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+23ec chrome.exe               1 4    1   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1fac chrome.exe               1 8    3   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1778 chrome.exe               1 74   1   below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1160 chrome.exe               1 79   1   below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+0864 chrome.exe               1 55   1   below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1478 chrome.exe               1 168  1   below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+2384 chrome.exe               1 43   1   below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+213c chrome.exe               1 99   1   below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1f58 chrome.exe               1 52   1   below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+2538 chrome.exe               1 4    9   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+11ec chrome.exe               1 41   1   below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+27cc chrome.exe               1 40   1   below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+24ac rundll32.exe             1 10   5   normal       C:\Windows\system32
+1f64 chrome.exe               1 13   27  normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+0ee8 audiodg.exe              0 0    0
+244c PROCEXP.EXE              1 457  187 high         C:\PROGRAM FILES\SYSINTERNALS SUITE
+117c SearchProtocolHost.exe   0 0    0
+25f0 bds.exe                  1 2708 808 normal       C:\Program Files\Embarcadero\RAD Studio\8.0\bin
+1460 SearchFilterHost.exe     0 0    0
+1538 MpCmdRun.exe             0 0    0
+1e7c MDIAPP.exe               1 82   50  normal       C:\Users\Stat!c_V0!D\Documents\RAD Studio\Projects\SADP_MDI
+2220 DllHost.exe              1 4    3   normal       C:\Windows\system32
+
+hardware:
++ Batteries
+  - Адаптер блока питания (Microsoft)
+  - Батарея с ACPI-совместимым управлением (Microsoft)
+  - Составная батарея (Майкрософт)
++ Computer
+  - ACPI компьютер на базе x86
++ Disk drives
+  - Seagate FreeAgent XTreme ATA Device
+  - WD 3200BMV External USB Device
+  - WDC WD2500BEVT-60ZCT1 ATA Device
++ Display adapters
+  - NVIDIA GeForce G 103M (driver 8.17.12.8562)
++ DVD/CD-ROM drives
+  - TSSTcorp CDDVDW TS-L633M ATA Device
+  - UPK YZW1EB4 SCSI CdRom Device
+  - UPK YZW1EB4 SCSI CdRom Device
++ Human Interface Devices
+  - HID-совместимое устройство
+  - HID-совместимое устройство
+  - HID-совместимое устройство управления
+  - USB-устройство ввода
+  - USB-устройство ввода
++ IDE ATA/ATAPI controllers
+  - ATA Channel 0
+  - ATA Channel 1
+  - ATA Channel 4
+  - ATA Channel 5
+  - Intel(R) ICH9M/M-E Family 4 Port SATA AHCI Controller - 2929 (driver 6.9.1.1001)
++ Imaging devices
+  - HP Webcam-101
++ Keyboards
+  - Клавиатура HID
+  - Стандартная клавиатура PS/2
++ Mice and other pointing devices
+  - HID-совместимая мышь
+  - Synaptics PS/2 Port TouchPad (driver 15.0.17.4)
++ Monitors
+  - Универсальный монитор PnP
++ Network adapters
+  - Atheros AR9285 802.11b/g/n WiFi Adapter (driver 8.0.0.172)
+  - Realtek RTL8102E/RTL8103E Family PCI-E Fast Ethernet NIC (NDIS 6.20)
++ Processors
+  - Intel(R) Pentium(R) Dual  CPU  T3400  @ 2.16GHz
+  - Intel(R) Pentium(R) Dual  CPU  T3400  @ 2.16GHz
++ Sound, video and game controllers
+  - IDT High Definition Audio CODEC (driver 6.10.6276.0)
+  - NVIDIA High Definition Audio (driver 1.2.24.0)
++ Storage controllers
+  - AM4QQVKL IDE Controller
+  - AVJ0OTDL IDE Controller
++ System devices
+  - AMD Low Level Device Driver (driver 1.0.1.0)
+  - CMOS и часы
+  - Intel(R) 82801 PCI мост - 2448
+  - Intel(R) 82802 Firmware концентратор
+  - Intel(R) ICH9 Family PCI Express Root Port 1 - 2940 (driver 8.6.1.1002)
+  - Intel(R) ICH9 Family PCI Express Root Port 2 - 2942 (driver 8.6.1.1002)
+  - Intel(R) ICH9 Family SMBus Controller - 2930 (driver 8.6.1.1001)
+  - Intel(R) ICH9 Family Thermal Subsystem - 2932 (driver 8.6.1.1002)
+  - Intel(R) ICH9M LPC Interface Controller - 2919 (driver 8.6.1.1002)
+  - Microsoft ACPI-совместимая система
+  - Microsoft ACPI-совместимый встроенный контроллер
+  - Microsoft System Management BIOS драйвер
+  - Mobile Intel(R) 4 Series Chipset PCI Express Root Port - 2A41 (driver 9.1.0.1003)
+  - Mobile Intel(R) 4 Series Chipset Processor to DRAM Controller - 2A40 (driver 9.1.0.1003)
+  - Remote Desktop Device Redirector Bus
+  - UMBus перечислитель
+  - UMBus перечислитель корневой шины
+  - Арифметический сопроцессор
+  - Высокоточный таймер событий
+  - Диспетчер томов
+  - Драйвер клавиатуры сервера терминалов
+  - Драйвер мыши сервера терминалов
+  - Драйвер перечислителя виртуальных дисков (Майкрософт)
+  - Драйвер файла в качестве тома
+  - Драйвер шины Virtual PC
+  - Интерфейс управления для ACPI Microsoft Windows
+  - Кнопка питания ACPI
+  - Кнопка прямого запуска приложений
+  - Кнопка прямого запуска приложений
+  - Кнопка прямого запуска приложений
+  - Кнопка прямого запуска приложений
+  - Кнопка прямого запуска приложений
+  - Кнопка прямого запуска приложений
+  - Кнопка прямого запуска приложений
+  - Кнопка спящего режима ACPI
+  - Контроллер High Definition Audio (Microsoft)
+  - Контроллер прямого доступа к памяти
+  - Крышка ACPI
+  - Перечислитель композитной шины
+  - Перечислитель программных устройств Plug and Play
+  - Программируемый контроллер прерываний
+  - Расширенная шина ввода/вывода
+  - Ресурсы системной платы
+  - Ресурсы системной платы
+  - Системный таймер
+  - Термальная зона ACPI
+  - Фиксированная функциональная кнопка ACPI
+  - Шина PCI
++ Universal Serial Bus controllers
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2934 (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2935 (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2936 (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2937 (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2938 (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2939 (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB2 Enhanced Host Controller - 293A (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB2 Enhanced Host Controller - 293C (driver 8.3.0.1011)
+  - Запоминающее устройство для USB
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Составное USB устройство
+  - Составное USB устройство
++ Виртуализация USB
+  - Драйвер разъема виртуализации USB
+
+disassembling:
+[...]
+005bceb0 38   push    $5bcef8
+005bceb5      push    $5bcf08
+005bceba      mov     ecx, [$5d4c34]
+005bcec0      mov     dl, 1
+005bcec2      mov     eax, [$492acc]
+005bcec7    > call    -$11e270 ($49ec5c)     ; Classes.TResourceStream.Create
+005bcecc      mov     ebx, eax
+005bcece 39   mov     eax, [esi+$3b0]
+005bced4      mov     eax, [eax+$2c0]
+005bceda      mov     edx, ebx
+005bcedc      mov     ecx, [eax]
+[...]
+
+date/time         : 2012-05-13, 15:58:08, 629ms
+computer name     : THECOMPOFSTAT1C
+user name         : Stat!c_V0!D
+registered owner  : Stat1c_V01D
+operating system  : Windows 7 Service Pack 1 build 7601
+system language   : Russian
+system up time    : 2 days 11 hours
+program up time   : 3 seconds
+processors        : 2x Intel(R) Pentium(R) Dual CPU T3400 @ 2.16GHz
+physical memory   : 1141/3069 MB (free/total)
+free disk space   : (C:) 4,39 GB
+display mode      : 1366x768, 32 bit
+process id        : $11a0
+allocated memory  : 22,85 MB
+command line      : "C:\Users\Stat!c_V0!D\Documents\RAD Studio\Projects\SADP_MDI\MDIAPP.exe" C:\Users\Stat!c_V0!D\Desktop\Main.sv0
+executable        : MDIAPP.exe
+exec. date/time   : 2012-05-13 15:58
+compiled with     : Delphi XE
+madExcept version : 3.0m
+callstack crc     : $d0db9475, $bf5d2e05, $bf5d2e05
+exception number  : 1
+exception class   : EAccessViolation
+exception message : Access violation at address 00407DEF in module 'MDIAPP.exe'. Read of address 0000000A.
+
+main thread ($1830):
+00407def +0007 MDIAPP.exe   System       @UStrFromPWChar
+005bcecb +001f MDIAPP.exe   about  38 +1 TAboutBox.FormCreate
+0053c985 +0031 MDIAPP.exe   Forms        TCustomForm.DoCreate
+0053c5c9 +0011 MDIAPP.exe   Forms        TCustomForm.AfterConstruction
+00405acd +001d MDIAPP.exe   System       @AfterConstruction
+0053c599 +01a1 MDIAPP.exe   Forms        TCustomForm.Create
+00546c86 +0076 MDIAPP.exe   Forms        TApplication.CreateForm
+005c61a0 +823c MDIAPP.exe   MDIAPP    28 Finalization
+7743ed6a +0010 kernel32.dll              BaseThreadInitThunk
+
+thread $13c:
+77c46a02 +000a ntdll.dll                NtWaitForMultipleObjects
+75ef6a30 +0000 KERNELBASE.dll           WaitForMultipleObjectsEx
+7743bd19 +0089 kernel32.dll             WaitForMultipleObjectsEx
+775a62f3 +7f8a USER32.dll               MsgWaitForMultipleObjectsEx
+775a37f2 +001a USER32.dll               MsgWaitForMultipleObjects
+00463ab5 +000d MDIAPP.exe     madExcept CallThreadProcSafe
+00463b1f +0037 MDIAPP.exe     madExcept ThreadExceptFrame
+7743ed6a +0010 kernel32.dll             BaseThreadInitThunk
+>> created by main thread ($1830) at:
+745078e1 +0000 gdiplus.dll
+
+thread $9a8:
+77c46a02 +0a ntdll.dll     NtWaitForMultipleObjects
+7743ed6a +10 kernel32.dll  BaseThreadInitThunk
+
+modules:
+00240000 Weareg2.bpl    14.0.3593.25826  C:\Program Files\Embarcadero\ktf
+00400000 MDIAPP.exe                      C:\Users\Stat!c_V0!D\Documents\RAD Studio\Projects\SADP_MDI
+10000000 RocketDock.dll                  C:\Program Files\RocketDock
+66fb0000 AcLayers.DLL   6.1.7601.17514   C:\Windows\AppPatch
+69090000 RICHED20.DLL   5.31.23.1230     C:\Windows\system32
+6c650000 comctl32.dll   5.82.7601.17514  C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7601.17514_none_ec83dffa859149af
+6eed0000 pshook.dll     3.2.2.45         C:\Program Files\Yandex\Punto Switcher
+720c0000 winspool.drv   6.1.7601.17514   C:\Windows\system32
+73c50000 msimg32.dll    6.1.7600.16385   C:\Windows\system32
+744c0000 gdiplus.dll    6.1.7601.17825   C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.17825_none_72d273598668a06b
+74650000 uxtheme.dll    6.1.7600.16385   C:\Windows\system32
+74690000 comctl32.dll   6.10.7601.17514  C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2
+749f0000 winmm.dll      6.1.7601.17514   C:\Windows\system32
+750a0000 version.dll    6.1.7600.16385   C:\Windows\system32
+75a30000 SspiCli.dll    6.1.7601.17725   C:\Windows\system32
+75a50000 apphelp.dll    6.1.7601.17514   C:\Windows\system32
+75aa0000 CRYPTBASE.dll  6.1.7600.16385   C:\Windows\system32
+75b90000 wsock32.dll    6.1.7600.16385   C:\Windows\system32
+75c90000 profapi.dll    6.1.7600.16385   C:\Windows\system32
+75ca0000 USERENV.dll    6.1.7601.17514   C:\Windows\system32
+75d80000 MPR.dll        6.1.7600.16385   C:\Windows\system32
+75ef0000 KERNELBASE.dll 6.1.7601.17651   C:\Windows\system32
+76090000 MSCTF.dll      6.1.7600.16385   C:\Windows\system32
+76160000 shell32.dll    6.1.7601.17755   C:\Windows\system32
+76db0000 imm32.dll      6.1.7601.17514   C:\Windows\system32
+76f70000 SHLWAPI.dll    6.1.7601.17514   C:\Windows\system32
+76fd0000 advapi32.dll   6.1.7601.17514   C:\Windows\system32
+77070000 LPK.dll        6.1.7600.16385   C:\Windows\system32
+77080000 NSI.dll        6.1.7600.16385   C:\Windows\system32
+77090000 USP10.dll      1.626.7601.17514 C:\Windows\system32
+77130000 PSAPI.DLL      6.1.7600.16385   C:\Windows\system32
+77140000 sechost.dll    6.1.7600.16385   C:\Windows\SYSTEM32
+77310000 imagehlp.dll   6.1.7601.17787   C:\Windows\system32
+77340000 msvcrt.dll     7.0.7601.17744   C:\Windows\system32
+773f0000 kernel32.dll   6.1.7601.17651   C:\Windows\system32
+774d0000 comdlg32.dll   6.1.7601.17514   C:\Windows\system32
+77550000 WS2_32.dll     6.1.7601.17514   C:\Windows\system32
+77590000 USER32.dll     6.1.7601.17514   C:\Windows\system32
+778d0000 ole32.dll      6.1.7601.17514   C:\Windows\system32
+77a30000 RPCRT4.dll     6.1.7601.17514   C:\Windows\system32
+77c00000 ntdll.dll      6.1.7601.17725   C:\Windows\SYSTEM32
+77d40000 oleaut32.dll   6.1.7601.17676   C:\Windows\system32
+77dd0000 GDI32.dll      6.1.7601.17514   C:\Windows\system32
+
+processes:
+0000 Idle                     0 0    0
+0004 System                   0 0    0
+0118 smss.exe                 0 0    0
+017c csrss.exe                0 0    0
+01c0 psxss.exe                0 0    0
+01c8 csrss.exe                1 0    0
+01e0 wininit.exe              0 0    0
+0204 winlogon.exe             1 0    0
+0234 services.exe             0 0    0
+023c lsass.exe                0 0    0
+0248 lsm.exe                  0 0    0
+02b4 svchost.exe              0 0    0
+0318 nvvsvc.exe               0 0    0
+0340 svchost.exe              0 0    0
+03a0 svchost.exe              0 0    0
+03c4 svchost.exe              0 0    0
+03e0 svchost.exe              0 0    0
+0420 stacsv.exe               0 0    0
+0554 svchost.exe              0 0    0
+05ac svchost.exe              0 0    0
+063c spoolsv.exe              0 0    0
+0668 svchost.exe              0 0    0
+06d4 DWENGINE.EXE             0 0    0
+0700 NetworkLicenseServer.exe 0 0    0
+018c DUMeterSvc.exe           0 0    0
+0214 svchost.exe              0 0    0
+04e8 Service.exe              0 0    0
+0868 hasplms.exe              0 0    0
+0a88 PnkBstrA.exe             0 0    0
+0ac4 RoozzUpdater.exe         0 0    0
+0b1c SPIDERNT.EXE             0 0    0
+0b4c sqlwriter.exe            0 0    0
+0b94 svchost.exe              0 0    0
+0be4 TeamViewer_Service.exe   0 0    0
+0c0c TestCompleteService7.exe 0 0    0
+0e7c alg.exe                  0 0    0
+0ea4 svchost.exe              0 0    0
+094c nvxdsync.exe             1 0    0
+0718 nvvsvc.exe               1 0    0
+0158 taskhost.exe             1 25   27  normal       C:\Windows\system32
+0dc0 Dwm.exe                  1 6    2   normal       C:\Windows\system32
+0594 Agent.exe                1 42   39  normal       C:\Program Files\G-Service\Agent
+0724 2GISTrayNotifier.exe     1 8    8   normal       C:\Program Files\2gis\3.0
+0b08 DRWAGNUI.EXE             1 68   18  normal       C:\Program Files\DrWeb AV-Desk
+0ad8 SearchIndexer.exe        0 0    0
+0988 SPIDERUI.EXE             1 13   28  normal       C:\Program Files\DrWeb AV-Desk
+085c nvtray.exe               1 77   4   normal       C:\Program Files\NVIDIA Corporation\Display
+0c38 wmpnetwk.exe             0 0    0
+0674 TSVNCache.exe            1 4    7   normal       C:\Program Files\TortoiseSVN\bin
+0488 LvAgent.exe              1 16   11  normal       C:\Program Files\ABBYY Lingvo x3
+0504 jusched.exe              1 4    2   normal       C:\Program Files\Common Files\Java\Java Update
+0a44 iconoid.exe              1 19   184 normal       C:\Program Files\Iconoid
+029c svchost.exe              0 0    0
+0e14 RocketDock.exe           1 47   29  normal       C:\Program Files\RocketDock
+0e70 StikyNot.exe             1 222  114 normal       C:\Windows\System32
+1050 clip2net.exe             1 172  119 normal       C:\Program Files\Clip2Net
+10c0 GoogleCrashHandler.exe   1 4    1   idle         C:\Users\Stat!c_V0!D\AppData\Local\Google\Update\1.3.21.111
+1130 AlSrvN.exe               1 4    1   normal       C:\Program Files\Alcohol Soft\Alcohol 120\Plugins\Helper
+1144 4Sync.exe                1 113  44  normal       C:\Program Files\4Sync
+1200 sidebar.exe              1 28   36  normal       C:\Program Files\Windows Sidebar
+1360 SkyDrive.exe             1 58   40  normal       C:\Users\Stat!c_V0!D\AppData\Local\Microsoft\SkyDrive
+13b8 svchost.exe              0 0    0
+14b0 rundll32.exe             1 10   6   normal       C:\Windows\system32
+14c0 Dropbox.exe              1 44   27  normal       C:\Users\Stat!c_V0!D\AppData\Roaming\Dropbox\bin
+1564 punto.exe                1 75   36  normal       C:\Program Files\Yandex\Punto Switcher
+168c utorrent.exe             1 676  256 normal       C:\Total Commander PowerUser v53\Programm\uTorrent
+156c OSPPSVC.EXE              0 0    0
+15bc svchost.exe              0 0    0
+12d8 taskhost.exe             1 0    0
+0878 trillian.exe             1 951  261 normal       C:\Program Files\Trillian
+1c04 skypekit.exe             1 4    9   normal       c:\program files\trillian\plugins
+13d4 conhost.exe              1 17   1   normal       C:\Windows\system32
+1228 explorer.exe             1 1142 642 normal       C:\Windows
+10b4 YandexDisk.exe           1 27   29  normal       C:\Users\Stat!c_V0!D\AppData\Roaming\Yandex\YandexDisk
+1efc dmaster.exe              1 341  226 normal       C:\Program Files\Download Master
+0e10 dexplore.exe             1 157  181 normal       C:\Program Files\Common Files\Microsoft Shared\Help 9
+0600 KeePass.exe              1 189  119 normal       C:\Total Commander PowerUser v53\Programm\KeePass
+1eb4 WinRAR.exe               1 130  48  normal       C:\Program Files\WinRAR
+241c chrome.exe               1 78   97  normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+21a0 chrome.exe               1 30   1   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+00ec chrome.exe               1 5    1   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1410 chrome.exe               1 11   1   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+0f2c chrome.exe               1 5    1   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1858 chrome.exe               1 4    1   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1198 chrome.exe               1 4    1   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+2588 chrome.exe               1 5    1   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+23ec chrome.exe               1 4    1   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1fac chrome.exe               1 8    3   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1778 chrome.exe               1 74   1   below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1160 chrome.exe               1 79   1   below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+0864 chrome.exe               1 55   1   below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1478 chrome.exe               1 168  1   below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+2384 chrome.exe               1 43   1   below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+213c chrome.exe               1 99   1   below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+1f58 chrome.exe               1 52   1   below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+2538 chrome.exe               1 4    9   normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+11ec chrome.exe               1 41   1   below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+27cc chrome.exe               1 40   1   below normal C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+24ac rundll32.exe             1 10   5   normal       C:\Windows\system32
+1f64 chrome.exe               1 13   26  normal       C:\Users\Stat!c_V0!D\AppData\Local\Google\Chrome\Application
+0ee8 audiodg.exe              0 0    0
+244c PROCEXP.EXE              1 457  187 high         C:\PROGRAM FILES\SYSINTERNALS SUITE
+117c SearchProtocolHost.exe   0 0    0
+25f0 bds.exe                  1 2709 807 normal       C:\Program Files\Embarcadero\RAD Studio\8.0\bin
+1460 SearchFilterHost.exe     0 0    0
+1538 MpCmdRun.exe             0 0    0
+11a0 MDIAPP.exe               1 87   60  normal       C:\Users\Stat!c_V0!D\Documents\RAD Studio\Projects\SADP_MDI
+0530 DllHost.exe              1 4    5   normal       C:\Windows\system32
+
+hardware:
++ Batteries
+  - Адаптер блока питания (Microsoft)
+  - Батарея с ACPI-совместимым управлением (Microsoft)
+  - Составная батарея (Майкрософт)
++ Computer
+  - ACPI компьютер на базе x86
++ Disk drives
+  - Seagate FreeAgent XTreme ATA Device
+  - WD 3200BMV External USB Device
+  - WDC WD2500BEVT-60ZCT1 ATA Device
++ Display adapters
+  - NVIDIA GeForce G 103M (driver 8.17.12.8562)
++ DVD/CD-ROM drives
+  - TSSTcorp CDDVDW TS-L633M ATA Device
+  - UPK YZW1EB4 SCSI CdRom Device
+  - UPK YZW1EB4 SCSI CdRom Device
++ Human Interface Devices
+  - HID-совместимое устройство
+  - HID-совместимое устройство
+  - HID-совместимое устройство управления
+  - USB-устройство ввода
+  - USB-устройство ввода
++ IDE ATA/ATAPI controllers
+  - ATA Channel 0
+  - ATA Channel 1
+  - ATA Channel 4
+  - ATA Channel 5
+  - Intel(R) ICH9M/M-E Family 4 Port SATA AHCI Controller - 2929 (driver 6.9.1.1001)
++ Imaging devices
+  - HP Webcam-101
++ Keyboards
+  - Клавиатура HID
+  - Стандартная клавиатура PS/2
++ Mice and other pointing devices
+  - HID-совместимая мышь
+  - Synaptics PS/2 Port TouchPad (driver 15.0.17.4)
++ Monitors
+  - Универсальный монитор PnP
++ Network adapters
+  - Atheros AR9285 802.11b/g/n WiFi Adapter (driver 8.0.0.172)
+  - Realtek RTL8102E/RTL8103E Family PCI-E Fast Ethernet NIC (NDIS 6.20)
++ Processors
+  - Intel(R) Pentium(R) Dual  CPU  T3400  @ 2.16GHz
+  - Intel(R) Pentium(R) Dual  CPU  T3400  @ 2.16GHz
++ Sound, video and game controllers
+  - IDT High Definition Audio CODEC (driver 6.10.6276.0)
+  - NVIDIA High Definition Audio (driver 1.2.24.0)
++ Storage controllers
+  - AM4QQVKL IDE Controller
+  - AVJ0OTDL IDE Controller
++ System devices
+  - AMD Low Level Device Driver (driver 1.0.1.0)
+  - CMOS и часы
+  - Intel(R) 82801 PCI мост - 2448
+  - Intel(R) 82802 Firmware концентратор
+  - Intel(R) ICH9 Family PCI Express Root Port 1 - 2940 (driver 8.6.1.1002)
+  - Intel(R) ICH9 Family PCI Express Root Port 2 - 2942 (driver 8.6.1.1002)
+  - Intel(R) ICH9 Family SMBus Controller - 2930 (driver 8.6.1.1001)
+  - Intel(R) ICH9 Family Thermal Subsystem - 2932 (driver 8.6.1.1002)
+  - Intel(R) ICH9M LPC Interface Controller - 2919 (driver 8.6.1.1002)
+  - Microsoft ACPI-совместимая система
+  - Microsoft ACPI-совместимый встроенный контроллер
+  - Microsoft System Management BIOS драйвер
+  - Mobile Intel(R) 4 Series Chipset PCI Express Root Port - 2A41 (driver 9.1.0.1003)
+  - Mobile Intel(R) 4 Series Chipset Processor to DRAM Controller - 2A40 (driver 9.1.0.1003)
+  - Remote Desktop Device Redirector Bus
+  - UMBus перечислитель
+  - UMBus перечислитель корневой шины
+  - Арифметический сопроцессор
+  - Высокоточный таймер событий
+  - Диспетчер томов
+  - Драйвер клавиатуры сервера терминалов
+  - Драйвер мыши сервера терминалов
+  - Драйвер перечислителя виртуальных дисков (Майкрософт)
+  - Драйвер файла в качестве тома
+  - Драйвер шины Virtual PC
+  - Интерфейс управления для ACPI Microsoft Windows
+  - Кнопка питания ACPI
+  - Кнопка прямого запуска приложений
+  - Кнопка прямого запуска приложений
+  - Кнопка прямого запуска приложений
+  - Кнопка прямого запуска приложений
+  - Кнопка прямого запуска приложений
+  - Кнопка прямого запуска приложений
+  - Кнопка прямого запуска приложений
+  - Кнопка спящего режима ACPI
+  - Контроллер High Definition Audio (Microsoft)
+  - Контроллер прямого доступа к памяти
+  - Крышка ACPI
+  - Перечислитель композитной шины
+  - Перечислитель программных устройств Plug and Play
+  - Программируемый контроллер прерываний
+  - Расширенная шина ввода/вывода
+  - Ресурсы системной платы
+  - Ресурсы системной платы
+  - Системный таймер
+  - Термальная зона ACPI
+  - Фиксированная функциональная кнопка ACPI
+  - Шина PCI
++ Universal Serial Bus controllers
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2934 (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2935 (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2936 (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2937 (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2938 (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2939 (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB2 Enhanced Host Controller - 293A (driver 8.3.0.1011)
+  - Intel(R) ICH9 Family USB2 Enhanced Host Controller - 293C (driver 8.3.0.1011)
+  - Запоминающее устройство для USB
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Корневой USB-концентратор
+  - Составное USB устройство
+  - Составное USB устройство
++ Виртуализация USB
+  - Драйвер разъема виртуализации USB
+
+cpu registers:
+eax = 0012fe90
+ebx = 01b824b0
+ecx = 00000000
+edx = 0000000a
+esi = 01b824b0
+edi = 00000000
+eip = 00407def
+esp = 0012fe74
+ebp = 0012fe94
+
+stack dump:
+0012fe74  0a 00 00 00 d0 ce 5b 00 - 9c fe 12 00 38 66 40 00  ......[.....8f@.
+0012fe84  94 fe 12 00 f0 c5 53 00 - b0 24 b8 01 00 00 00 00  ......S..$......
+0012fe94  b8 fe 12 00 8b c9 53 00 - cc fe 12 00 08 64 40 00  ......S......d@.
+0012fea4  b8 fe 12 00 00 00 00 00 - f0 c5 53 00 b0 24 b8 01  ..........S..$..
+0012feb4  b0 24 b8 01 e8 fe 12 00 - cf c5 53 00 f0 c5 53 00  .$........S...S.
+0012fec4  00 00 00 00 d0 5a 40 00 - f0 fe 12 00 df 5a 40 00  .....Z@......Z@.
+0012fed4  e8 fe 12 00 00 00 00 00 - f0 c5 53 00 00 00 00 00  ..........S.....
+0012fee4  b0 24 b8 01 20 ff 12 00 - 9e c5 53 00 28 ff 12 00  .$........S.(...
+0012fef4  81 5a 40 00 20 ff 12 00 - b0 24 b8 01 00 00 00 00  .Z@......$......
+0012ff04  5c cb 5b 00 00 00 00 00 - 00 00 00 00 99 a8 53 00  \.[...........S.
+0012ff14  e8 09 16 00 6c 6b 49 ff - b0 24 b8 01 58 ff 12 00  ....lkI..$..X...
+0012ff24  89 6c 54 00 34 ff 12 00 - 93 6c 54 00 58 ff 12 00  .lT.4....lT.X...
+0012ff34  60 ff 12 00 50 6d 54 00 - 58 ff 12 00 00 00 00 00  `...PmT.X.......
+0012ff44  00 00 00 00 00 60 fd 7f - b0 24 b8 01 cc 89 5d 00  .....`...$....].
+0012ff54  80 74 bb 01 88 ff 12 00 - a5 61 5c 00 78 ff 12 00  .t.......a\.x...
+0012ff64  4c 62 5c 00 88 ff 12 00 - 00 00 00 00 00 00 00 00  Lb\.............
+0012ff74  00 00 00 00 c4 ff 12 00 - 08 69 40 00 88 ff 12 00  .........i@.....
+0012ff84  00 00 00 00 94 ff 12 00 - 6c ed 43 77 00 60 fd 7f  ........l.Cw.`..
+0012ff94  d4 ff 12 00 7b 37 c6 77 - 00 60 fd 7f 5f f2 09 7b  ....{7.w.`.._..{
+0012ffa4  00 00 00 00 00 00 00 00 - 00 60 fd 7f 00 00 00 00  .........`......
+
+disassembling:
+[...]
+005bcec0      mov     fs:[eax], esp
+005bcec3 38   int     3
+005bcec4      inc     ebp
+005bcec5      cld
+005bcec6      mov     edx, $a
+005bcecb    > call    -$1b50e8 ($407de8)     ; System.@UStrFromPWChar
+005bced0      mov     eax, [ebp-4]
+005bced3      push    eax
+005bced4      push    $5bcf2c
+005bced9      mov     ecx, [$5d4c34]
+005bcedf      mov     dl, 1
+[...]
+
